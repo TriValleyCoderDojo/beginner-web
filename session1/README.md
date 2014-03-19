@@ -8,18 +8,19 @@ Today we are going to use [HTML](http://en.wikipedia.org/wiki/HTML) to help us t
 <p>HTML is a markup language that we can use to add structure and formatting to our story in web browsers, like Safari or Chrome. When we use HTML to tell a story in the web browser, we are creating a web page.</p>
 ```
 
-A web page is made up of many html elements, each a tag, or more commonly a set of tags, enclosed in angle brackets. The paragraph above is an example of how you mark a paragraph in html, by surrounding it in opening and closing `<p>` tags.
+A web page is made up of many HTML elements, each a tag, or more commonly a set of tags, enclosed in angle brackets. The paragraph above is an example of how you mark a paragraph in html, by surrounding it in opening and closing `<p>` tags.
 
 **Description**
 
-To get started in web development we'll need to learn how to use html, so today we are going to:
+To get started in web development we'll need to learn how to use HTML, so today we are going to:
 
 * Start with a basic HTML template
 * Tell our story and use HTML to add structure and formatting
+* Display your HTML in browser to see the results
 
 **Demo**
 
-This bit of code:
+This is an example of HTML code:
 
 ```
 <!DOCTYPE html>
@@ -45,7 +46,7 @@ This bit of code:
 </html>
 ```
 
-Will produce a web page that looks like this:
+When the above HTML code is viewed in a browser will produce a web page that looks like this:
 
 ![demo](https://dl.dropboxusercontent.com/u/4042186/lesson1-sample.png)
 
