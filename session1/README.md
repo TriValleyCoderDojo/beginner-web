@@ -2,24 +2,25 @@
 
 ## Overview
 
-Today we are going to use [HTML](http://en.wikipedia.org/wiki/HTML) to help us tell a story in the web browser that we can show our friends and family.
+This session is going to use [HTML](http://en.wikipedia.org/wiki/HTML) to help us tell a story in the web browser that we can show our friends and family.
 
 ```html
 <p>HTML is a markup language that we can use to add structure and formatting to our story in web browsers, like Safari or Chrome. When we use HTML to tell a story in the web browser, we are creating a web page.</p>
 ```
 
-A web page is made up of many html elements, each a tag, or more commonly a set of tags, enclosed in angle brackets. The paragraph above is an example of how you mark a paragraph in html, by surrounding it in opening and closing `<p>` tags.
+A web page is made up of many HTML elements, each a tag, or more commonly a set of tags, enclosed in angle brackets. The paragraph above is an example of how you mark a paragraph in html, by surrounding it in opening and closing `<p>` tags.
 
 **Description**
 
 To get started in web development we'll need to learn how to use html, so today we are going to:
 
-* Start with a basic HTML template
+* Start with a basic HTML 
 * Tell our story and use HTML to add structure and formatting
+* Display (render) the HTML in a browser
 
 **Demo**
 
-This bit of code:
+Below is an exmaple of HTML code:
 
 ```
 <!DOCTYPE html>
@@ -42,17 +43,28 @@ This bit of code:
 </html>
 ```
 
-Will produce a web page that looks like this:
+When this HTML is displayed (rendered) in a browser it will create a web page that looks like this:
 
 ![demo](http://cl.ly/image/0e1d3b2C3y2P/content#.png)
 
 Check out the [live demo](http://codepen.io/anon/pen/vmibf) to experiment yourself.
 
-## Prerequisites
+## Prerequisites and Tools
 
-**Tools**
+To get started the only prerequites you will need is
+
+* A willingness to learn
+* A computer
+* An internet connection
+* Some kind of editing tool
+
+In order to work with HTML you will need a way to edit the HTML and a way to render the HTML in a browser.  Once you become more skilled you will be able to edit the HTML files directly, open those in a browser, or even serve them from a web server.  However, for now let's keep it simple and use a tool that will do some of the work for us.  CodePen is a very good place to get started. The URL to their website it given below:
+
 
 * [CODEPEN](http://codepen.io/pen/)
+
+CodePen will do a lot for you, but it is also pretty easy to use.  You can use it without creating an account, but then you will not be able save your work as easily.  It is recommended that you create an Free account using the SignUp process.  Here is a short Youtube overview of [CodePen Overview](https://www.youtube.com/watch?v=UF0_eMojlEw).
+
 
 ## Getting Started
 
