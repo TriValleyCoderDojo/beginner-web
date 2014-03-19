@@ -63,7 +63,9 @@ In order to work with HTML you will need a way to edit the HTML and a way to ren
 
 * [CODEPEN](http://codepen.io/pen/)
 
-CodePen will do a lot for you, but it is also pretty easy to use.  You can use it without creating an account, but then you will not be able save your work as easily.  It is recommended that you create an Free account using the SignUp process.  Here is a short Youtube overview of [CodePen Overview](https://www.youtube.com/watch?v=UF0_eMojlEw).
+CodePen will do a lot for you, but it is also pretty easy to use.  You can use it without creating an account, but then you will not be able save your work as easily.  It is recommended that you create an Free account using the SignUp process, which will require a valid email address.  Here is a short Youtube overview of [CodePen Overview](https://www.youtube.com/watch?v=UF0_eMojlEw).
+
+> Note: If you chose not SignUp and create an account, then you will need to manually keep track of the URL of each page you create.  The URL that is created will allow you to go back to those pages later.  
 
 
 ## Getting Started
@@ -76,7 +78,7 @@ For now ignore the JS and CSS areas so uncheck the boxes next to them.
 
 ![Uncheck JS and CSS](http://cl.ly/image/1f3C0E1O1t2Q/content#.png)
 
-Now add the minimal amount of HTML to make the page work. Start by clicking in the HTML area and adding opening and closing `<html>` tags.
+Now add the minimal amount of HTML to make the page work. Start by clicking in the HTML area and adding opening and closing `<html>` tags.  Notice it comes in an opening, `<html>`, and closing, `</html>` tag.  The combination of these two tags are used to tell the browser that everything in between them will be HTML code.  Most HTML tags will use the opening and closing tags approach, with only a few easy to remember exceptions.  
 
 ```html
 <html>
@@ -87,7 +89,13 @@ Your screen should look like this now:
 
 ![CODEPEN after adding html tags](http://cl.ly/image/1y1H1M1n2r1m/content#.png)
 
-Next add the `<head>` and `<body>` tags. The `<body>` tags tell the web browser that this part of the page should be rendered (displayed). Now our HTML should look like this:
+Next add the `<head>` and `<body>` tags. 
+
+* The `<head>` tags are used to give additional information about this page.  Generally, the stuff inside of these tags will not be be displayed.  There can only be one pair of these.  
+
+* The `<body>` tags tell the web browser that this is the stuff that will be rendered.  Again there can only one pair. 
+
+Now our HTML should look like this:
 
 ```html
 <html>
