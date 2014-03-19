@@ -1,6 +1,6 @@
 Introduction to JavaScript
 =================
-### JSFiddle link: http://jsfiddle.net/jeeyun/r7T26/32/
+### CodePen link: http://codepen.io/jensechu/pen/imHpc
 
 ## What is JavaScript?
 JavaScript is a programming language that your browser speaks. It is how you can add life into your websites by making the elements you put on the page interact with the user, reading your page. We might use it to pop-up an alert box, do some math, or even change the text on your page without editting your HTML! 
@@ -12,11 +12,6 @@ Unlike HTML and CSS where you can see what changes you make in your Codepen.IO w
 * Firefox: Go to Tools -> Web Developer -> Web Console
 * Safari: Go to Preferences -> Advanced -> select "Show Develop Menu in Menu Bar." After that Develop option should show up on the menu. Then go to Develop -> Show Web Inspector
 * IE: Tools -> Developer Tools (click on Scripts tab or Console tab, depending on the IE version)
-
-## Setting up JSFiddle
-On the leftside of the page, be sure to select ``No wrap - in <head>`` for the second dropdown under "Frameworks & Extensions." This will ensure that all of your javascript functions and variables will be available after the page is loaded.
-
-![JavaScript setting](../screenshots/js-option.png)
 
 ## Using Alert
 Let's try writing our very first line of JavaScript. In the JavaScript window of jsfiddle, type in ``alert("CoderDojo is awesome!")``. Click "run" or "update" and see what happens. You should see an alert message that says "CoderDojo is awesome!"
@@ -71,6 +66,17 @@ var getMyName = function() {
   return name;
 }
 ```
+
+## Using Variables
+Variables in JavaScript let you save data with associated names. Let's try teaching our script what our name is, since right now if we just run ``prompt("What is your name?")`` our script has no way to recall our name again. 
+
+* In your JavaScript Inspector try: ``console.log(name);``
+* Then add ``var name = prompt('What is your name?')``
+* Now try ``console.log(name)`` in your Inspector again. 
+* Why do you think these are different?
+* Be sure to delete these three lines of code when you are finished typing them so we can write our own function to get your name.
+
+You can name your variable almost anything, but it can't start with a number. Variable names also can't be any of JavaScript's [Reserved Words](http://msdn.microsoft.com/en-us/library/0779sbks.aspx)
 
 ## Adding Data to Your Page
 All of our JavaScript data is just stored in our JavaScript code right now. But what if we wanted to display our data on the website? Let's create a welcome message for our users.
