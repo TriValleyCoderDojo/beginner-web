@@ -1,4 +1,4 @@
-# Build a web page - HTML - Lesson 1
+# Build a web page - HTML - Session 1
 
 ## Overview
 
