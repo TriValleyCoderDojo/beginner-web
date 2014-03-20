@@ -163,7 +163,7 @@ Now the paragraphs are displayed correctly!
 
 ## Adding a Title and Header
 
-Next, we need to add a title to your page. The title is required and there can only be one per page.  Ordinarily, the title will appear in the browser title bar, but since we are using CodePen you will not see the title bar.  You should still put add it for when you move your page to an actual web server.  We will need to add the `<title>` to the `<head>` as shown below.
+Next, we need to add a title to your page. The title is required and there can only be one per page.  Ordinarily, the title will appear in the browser title bar, but since we are using CodePen you will not see the title bar.  You should still add it, so when you move your page to an actual web server it will be there.  We will need to add the `<title>` to the `<head>` as shown below.
 
 Also, we need to add a main header.  The header will need to go in the body.  It is usually at the top of the page and gives the reader an idea of what the page is about.  Unlike the title, there can be any number of headers.  We will need to use the `<h1>` tags and add it to the `<body>`.
 
@@ -186,15 +186,17 @@ In addition, to the `<h1>` tags, there is a set of them `<h1>` to `<h6>`.  The s
 
 ## Picture Time!
 
-This story would be a lot more interesting with pictures! Adding a picture to our story is simple, we just use the `<img>` tag and tell it where our image is.
+This story would be a lot more interesting with pictures! Adding a picture to our story is simple, we just need to use the `<img>` tag and tell it where our image is.
 
-The `<img>` tag has an attribute called `src` and this is where we tell it the url to the image we want to use in our story. Here is an example `<img>` tag:
+The `<img>` tag has an attribute called `src` and this is a URL to where the image has been saved. In this example, the image has been saved and then mapped with a bitly URL, and we are using a fully qualified link.  However, that is not the only way images can be referenced.  They could be just a file name that the page can reach directly.  More information can be found at [HTML img tag](http://www.w3schools.com/tags/tag_img.asp).
+
+Here is an example `<img>` tag:
 
 ```html
 <img src="http://f.cl.ly/items/2f473l1d233S0S1k3J3d/dogs-playing.jpg">
 ```
 
-Adding this to our story is easy:
+Now we can add a couple of images to our story, as shown below:
 
 ```html
 <html>
