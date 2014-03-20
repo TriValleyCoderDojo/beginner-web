@@ -2,7 +2,7 @@
 
 ## Overview
 
-This session is going to use [HTML](http://en.wikipedia.org/wiki/HTML) to help us tell a story in the web browser that we can show our friends and family.
+In this session we are going to use [HTML](http://en.wikipedia.org/wiki/HTML) to tell a story in the web browser that we can show our friends and family.  The story has been created for you, and although it may not be interested in this particular story, it might be a good idea to follow along with this story just to learn how to do it, and then create your own story, once you have mastered the HTML code.  
 
 ```html
 <p>HTML is a markup language that we can use to add structure and formatting to our story in web browsers, like Safari or Chrome. When we use HTML to tell a story in the web browser, we are creating a web page.</p>
