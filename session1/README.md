@@ -322,7 +322,7 @@ One of the things that makes web pages so amazing for telling stories is you can
 
 In the pervious example I included three kinds of dogs that we saw at the park, now I'm going to use hyperlinks (the `<a>` tag) to link the dog names to their descriptions on Wikipedia.
 
-The `<a>` tag has an attribute called `href` and we will set that attribute equal to the url of the web page we want to link to. Here is an example where I link the word Poodles to the web page about Poodles on Wikipedia:
+The anchor (`<a>`) tag has an attribute called `href` and we will set that attribute equal to the url of the web page we want to link to. Here is an example where I link the word Poodles to the web page about Poodles on Wikipedia:
 
 ```
 <a href="http://en.wikipedia.org/wiki/Poodle">Poodles</a>
@@ -350,6 +350,8 @@ Here is what it looks like in the context of our story:
 	</body>
 </html>
 ```
+
+This is the simplest and most common use of the anchor tag, but there are many others.  For example the href could point to a named element on the same page.  Another example is to make the linked page open in a new window by adding target="_blank".  For more information on the anchor tag, refer to [HTML anchors](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a). 
 
 ## Telling More Than One Story
 
