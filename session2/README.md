@@ -1,11 +1,11 @@
-# Build a web page, Lesson 2 – CSS
+# Build a web page, Session 2 – CSS
 
 ## Overview
 
-Today's lesson is about
+In this session we will learn about
 [Cascading Style Sheets](http://en.wikipedia.org/wiki/CSS),
 more commonly known as CSS. We are going to use CSS to improve the _look
-and feel_ of our stories.
+and feel_ of content on the web page.
 
 ### What is CSS?
 
