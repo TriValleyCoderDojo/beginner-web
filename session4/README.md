@@ -1,4 +1,4 @@
-Introduction to JavaScript
+Introduction to JavaScript - Session 4
 =================
 ### CodePen link: http://codepen.io/jensechu/pen/imHpc
 
