@@ -4,9 +4,9 @@
 
 In this session we are going to use [HTML](http://en.wikipedia.org/wiki/HTML) to tell a story in the web browser that we can show our friends and family.  The story has been created for you, and although you may not be interested in this particular story, it might be a good idea to follow along with this story just to learn how to do it, and then create your own story, once you have mastered the HTML code.  
 
-```html
-<p>HTML is a markup language that we can use to add structure and formatting to our story in web browsers, like Safari or Chrome. When we use HTML to tell a story in the web browser, we are creating a web page.</p>
-```
+HTML is a markup language that we can use to add structure and formatting to content to be displayed in web browsers.
+
+A web browser (commonly referred to as a browser) is a software application for retrieving, presenting and traversing information resources on the World Wide Web.  Examples are Firefox, Chrome, Internet Explorer and Safari. 
 
 A web page is made up of many HTML elements, each a tag, or more commonly a set of tags, enclosed in angle brackets. The paragraph above is an example of how you mark a paragraph in html, by surrounding it in opening and closing `<p>` tags.
 
