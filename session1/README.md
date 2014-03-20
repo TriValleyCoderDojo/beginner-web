@@ -80,6 +80,8 @@ For now ignore the JS and CSS areas so uncheck the boxes next to them.
 
 ![Uncheck JS and CSS](http://cl.ly/image/1f3C0E1O1t2Q/content#.png)
 
+### Base HTML 
+
 Now add the minimal amount of HTML to make the page work. Start by clicking in the HTML area and adding opening and closing `<html>` tags.  Notice it comes in an opening, `<html>`, and closing, `</html>` tag.  The combination of these two tags are used to tell the browser that everything in between them will be HTML code.  Most HTML tags will use the opening and closing tags approach, with only a few easy to remember exceptions.  
 
 ```html
@@ -110,7 +112,7 @@ Now our HTML should look like this:
 
 This is the base HTML that every page should have.  
 
-## Telling Your Story
+## Your First Text
 
 Now you can start telling your story by typing some text inside of the `<body>` tags! Here is an example:
 
@@ -184,7 +186,7 @@ Also, we need to add a main header.  The header will need to go in the body.  It
 
 ![Story with title](http://cl.ly/image/1e352r043A1x/content#.png)
 
-In addition, to the `<h1>` tags, there is a set of them `<h1>` to `<h6>`.  The smaller the number the smaller the smaller the font that will be used.  However, each header will bold to be different from regular text.  
+In addition, to the `<h1>` tags, there is a set of them `<h1>` to `<h6>`.  The smaller the number the smaller the font that will be used.  However, each header will bold to be different from regular text.  
 
 ## Picture Time!
 
