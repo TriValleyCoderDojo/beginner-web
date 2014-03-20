@@ -11,9 +11,13 @@ and feel_ of content on the web page.
 
 CSS is a language that can be used to describe how HTML is supposed to look.
 The important distinction here is that HTML structures the content,
-while CSS controls how it looks.
+while CSS controls how it looks.  
 
-Let's look at the difference. Here's the CSS from @jonmagic's story last week:
+CSS is made up of multiple parts: a selector, the curly brackets and a set of one more properties. The selector is used to filter out the set of HTML elements that the CSS will do something on.  For example, if the selector is body, then it will effect the body element.  If on the other hand the selector was for a, then then it would effect all anchor tags.  The curly brackets are used only to separate the selector from the set of properties that will be applied to the HTML elements.  The set of properties need to be one per line and ended with a semi-colin(;).
+
+On of the most confusing things about CSS is the cascading part.  What this means is that rules will cascade through all the rules that could apply to an HTML element.  But it starts from the closest rule and then goes out to more and more general rules.  For example, consider the case of the body and the anchor that we talked about above.  First, the cascading would start by applying the rules for the anchor tag, and then it would move to the rules for the body.  Sometimes this can be confusing and cause some strange things to happen.  
+
+Let's look at an exmaple in more detail. Here's the CSS from the story in the first session:
 
 ```css
 body {
