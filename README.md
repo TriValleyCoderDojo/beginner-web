@@ -14,15 +14,8 @@ This is a set of short sessions intended to provide a first time introduction to
 
 [:rocket: Session 4][3]: Introduction to JavaScript
 
-[:rocket: Session 5][4]: Interactive HTML with JavaScript
-
-[:rocket: Session 6][5]: Introduction to jQuery
-
-
 
 [0]: session1/
 [1]: session2/
 [2]: session3/
 [3]: session4/
-[4]: session5/
-[5]: session6/
