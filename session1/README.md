@@ -63,7 +63,7 @@ In order to work with HTML you will need a way to edit the HTML and a way to ren
 
 * [CODEPEN](http://codepen.io/pen/)
 
-CodePen will do a lot for you, but it is also pretty easy to use.  You can use it without creating an account, but then you will not be able save your work as easily.  It is recommended that you create an Free account using the SignUp process, which will require a valid email address.  Here is a short Youtube overview of [CodePen Overview](https://www.youtube.com/watch?v=UF0_eMojlEw).
+CodePen will do a lot for you, but it is also pretty easy to use.  You can use it without creating an account, but then you will not be able save your work as easily.  It is recommended that you create an Free account using the SignUp process, which will require a valid email address.  Here is a short Youtube video that gives an overview of [CodePen](https://www.youtube.com/watch?v=UF0_eMojlEw).
 
 > Note: If you chose not SignUp and create an account, then you will need to manually keep track of the URL of each page you create.  The URL that is created will allow you to go back to those pages later.  
 
@@ -106,9 +106,11 @@ Now our HTML should look like this:
 </html>
 ```
 
+This is the base HTML that every page should have.  
+
 ## Telling Your Story
 
-Now you can start telling your story by typing it inside of the `<body>` tags! Here is an example:
+Now you can start telling your story by typing some text inside of the `<body>` tags! Here is an example:
 
 ```html
 <html>
@@ -140,7 +142,7 @@ Now tell more of your story, what else happened?
 
 ## Using Paragraphs
 
-Here you can see that I separated my paragraphs using new lines (on the right) but the rendered html (on the left) didn't get separated into paragraphs. This is because I did not use HTML to add  paragraph (`<p>` tags) to my story.
+Here you can see that we separated my paragraphs by using new lines (on the right) but the rendered html (on the left) didn't get separated into paragraphs. This is because HTML does not recognize the new lines as paragraph separators.  In fact, HTML treats spaces, tabs and new lines as just a single character.  In order to create paragraphs in HTML we need to use paragraph (`<p>`) tags.
 
 Add the `<p>` around the paragraphs:
 
@@ -159,9 +161,11 @@ Add the `<p>` around the paragraphs:
 
 Now the paragraphs are displayed correctly!
 
-## Adding a Title
+## Adding a Title and Header
 
-Next add a title to your story. To do this add the `<title>` to the `<head>` and then add it to the `<body>` using `<h1>` tags.
+Next, we need to add a title to your page. The title is required and there can only be one per page.  Ordinarily, the title will appear in the browser title bar, but since we are using CodePen you will not see the title bar.  You should still put add it for when you move your page to an actual web server.  We will need to add the `<title>` to the `<head>` as shown below.
+
+Also, we need to add a main header.  The header will need to go in the body.  It is usually at the top of the page and gives the reader an idea of what the page is about.  Unlike the title, there can be any number of headers.  We will need to use the `<h1>` tags and add it to the `<body>`.
 
 ```html
 <html>
@@ -177,6 +181,8 @@ Next add a title to your story. To do this add the `<title>` to the `<head>` and
 ```
 
 ![Story with title](http://cl.ly/image/1e352r043A1x/content#.png)
+
+In addition, to the `<h1>` tags, there is a set of them `<h1>` to `<h6>`.  The smaller the number the smaller the smaller the font that will be used.  However, each header will bold to be different from regular text.  
 
 ## Picture Time!
 
