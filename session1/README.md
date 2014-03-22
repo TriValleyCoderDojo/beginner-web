@@ -53,7 +53,7 @@ Check out the [live demo](http://codepen.io/anon/pen/vmibf) to experiment yourse
 
 ## Prerequisites and Tools
 
-To get started the only prerequites you will need is
+To get started the only prerequites you will need are 
 
 * A willingness to learn
 * A computer
