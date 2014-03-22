@@ -40,5 +40,7 @@ Now our HTML should look like this:
 
 This is the base HTML that every page should have.  
 
-Next HTML Topic: [Your First Text](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/02-first_text)
+----------------------------
+
+**Next HTML Topic:** [Your First Text](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/02-first_text)
 
