@@ -54,4 +54,6 @@ If you want the list to use numbers instead of bullet points you can change the 
 
 ![Story with ordered list](http://cl.ly/image/3x2t1c1N1v3o/content#.png)
 
-Next HTML Topic: [Hyperlinks](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/08-links)
+-----------------------
+
+**Next HTML Topic:** [Hyperlinks](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/08-links)
