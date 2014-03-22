@@ -69,6 +69,13 @@ CodePen will do a lot for you, but it is also pretty easy to use.  You can use i
 
 > Note: If you chose not SignUp and create an account, then you will need to manually keep track of the URL of each page you create.  The URL that is created will allow you to go back to those pages later.  
 
+## Topics
+
+Okay so enough talking about what we are going to do.  Let's get to it and start writing some HTML code.
+
+1. [Getting Started](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/01-getting_started)
+2. [Your First Text](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/02-first_text)
+
 ## Other Resources
 
 * [HTML Glossary](http://www.codecademy.com/glossary/html)
