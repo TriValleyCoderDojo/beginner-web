@@ -21,4 +21,6 @@ Also, we need to add a main header.  The header will need to go in the body.  It
 
 In addition, to the `<h1>` tags, there is a set of them `<h1>` to `<h6>`.  The smaller the number the smaller the font that will be used.  However, each header will bold to be different from regular text.  
 
-Next HTML Topic: [Adding Pictures](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/05-pictures)
+------------------------------------
+
+**Next HTML Topic:** [Adding Pictures](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/05-pictures)
