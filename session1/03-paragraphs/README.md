@@ -19,4 +19,6 @@ Add the `<p>` around the paragraphs:
 
 Now the paragraphs are displayed correctly!
 
-Next HTML Topic: [Adding a Title and Header](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/04-title_header)
+----------
+
+**Next HTML Topic:** [Adding a Title and Header](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/04-title_header)
