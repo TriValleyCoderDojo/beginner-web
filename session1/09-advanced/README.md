@@ -1,4 +1,4 @@
-## Advanced Topics
+# Advanced Topics
 
 ### HTML Doctype
 
