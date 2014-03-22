@@ -1,4 +1,4 @@
-## Lists
+# Lists
 
 When making web pages, you will often need to create lists.  You may want to created a numbered list to show a sequence of things that need to happen.  You may want to just give a list of things that are grouped together.  Fortunately, HTML lets us create lists very easily.  There are two kinds ordered (`<ol>`) and unordereed (`<ul>`).  The ordered list will put a number in front of each item in the list.  An unordered list will simply put a large dot in fron of each item in the list.  For both ordered and unordered list, the items will use the `<il>` tags.  For more information on lists, refer to [HTML lists](http://www.w3schools.com/html/html_lists.asp). 
 
@@ -53,3 +53,5 @@ If you want the list to use numbers instead of bullet points you can change the 
 ```
 
 ![Story with ordered list](http://cl.ly/image/3x2t1c1N1v3o/content#.png)
+
+Next HTML Topic: [Hyperlinks](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/08-links)
