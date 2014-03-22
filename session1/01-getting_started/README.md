@@ -1,5 +1,4 @@
-
-## Getting Started
+# Getting Started
 
 To get started you should open a blank project on CODEPEN: [http://codepen.io/pen/](http://codepen.io/pen/)
 
@@ -40,4 +39,6 @@ Now our HTML should look like this:
 ```
 
 This is the base HTML that every page should have.  
+
+Next HTML Topic: [Your First Text](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/02-first_text)
 
