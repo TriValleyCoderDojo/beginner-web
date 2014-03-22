@@ -1,4 +1,4 @@
-## Emphasize Text
+# Emphasizing Text
 
 Sometimes we want to bring more attention to parts of our story. One way we can do this is by using the `<strong>` tag to make certain parts of our story look bolder compared to other parts. Here is an example:
 
@@ -37,3 +37,5 @@ We can bring emphasis to parts of our story by *making them italic*. We use the 
 ```
 
 ![Story with emphasis](http://cl.ly/image/45033t3W3v3R/content#.png)
+
+Next Section: [Lists](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/07-lists)
