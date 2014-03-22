@@ -75,6 +75,13 @@ Okay so enough talking about what we are going to do.  Let's get to it and start
 
 1. [Getting Started](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/01-getting_started)
 2. [Your First Text](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/02-first_text)
+3. [Using Paragraphs](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/03-paragraphs)
+4. [Adding a Title and Header](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/04-title_header)
+5. [Adding Pictures](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/05-pictures)
+6. [Emphasizing Text](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/06-emphasis)
+7. [Lists](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/07-lists)
+8. [Hyperlinks](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/08-links)
+9. [Advanced Topics](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/09-advanced)
 
 ## Other Resources
 
