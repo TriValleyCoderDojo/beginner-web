@@ -38,4 +38,6 @@ We can bring emphasis to parts of our story by *making them italic*. We use the 
 
 ![Story with emphasis](http://cl.ly/image/45033t3W3v3R/content#.png)
 
-Next HTML Topic: [Lists](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/07-lists)
+------------------------------------
+
+**Next HTML Topic:** [Lists](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/07-lists)
