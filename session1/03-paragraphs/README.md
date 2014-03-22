@@ -1,6 +1,6 @@
 # Using Paragraphs
 
-Here you can see that we separated my paragraphs by using new lines (on the right) but the rendered html (on the left) didn't get separated into paragraphs. This is because HTML does not recognize the new lines as paragraph separators.  In fact, HTML treats spaces, tabs and new lines as just a single character.  In order to create paragraphs in HTML we need to use paragraph (`<p>`) tags.
+Here you can see that we separated the paragraphs by using new lines (on the right) but the rendered html (on the left) didn't get separated into paragraphs. This is because HTML does not recognize the new lines as paragraph separators.  In fact, HTML treats spaces, tabs and new lines as just a single character.  In order to create paragraphs in HTML we need to use paragraph (`<p>`) tags.
 
 Add the `<p>` around the paragraphs:
 
