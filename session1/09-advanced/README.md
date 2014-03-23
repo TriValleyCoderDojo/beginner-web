@@ -1,4 +1,4 @@
-## Advanced Topics
+# Advanced Topics
 
 ### HTML Doctype
 
@@ -84,5 +84,4 @@ img {
 ```
 
 ![Story with CSS](http://cl.ly/image/002B0l3l090P/content#.png)
-
 

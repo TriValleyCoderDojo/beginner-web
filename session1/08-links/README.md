@@ -1,4 +1,4 @@
-## Hyperlinks
+# Hyperlinks
 
 One of the things that makes web pages so amazing for telling stories is you can **link** things together with other web pages on the internet and it is really easy to do!
 
@@ -34,3 +34,7 @@ Here is what it looks like in the context of our story:
 ```
 
 This is the simplest and most common use of the anchor tag, but there are many others.  For example the href could point to a named element on the same page.  Another example is to make the linked page open in a new window by adding target="_blank".  For more information on the anchor tag, refer to [HTML anchors](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a). 
+
+--------
+
+**Next HTML Topic:** [Advanced Topics](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/09-advanced)

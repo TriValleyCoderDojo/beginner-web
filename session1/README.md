@@ -49,25 +49,37 @@ When this HTML is displayed (rendered) in a browser it will create a web page th
 
 ![demo](http://cl.ly/image/0e1d3b2C3y2P/content#.png)
 
-Check out the [live demo](http://codepen.io/anon/pen/vmibf) to experiment yourself.
-
 ## Prerequisites and Tools
 
-To get started the only prerequites you will need is
+To get started the only prerequites you will need are 
 
 * A willingness to learn
 * A computer
 * An internet connection
 * Some kind of editing tool
 
-In order to work with HTML you will need a way to edit the HTML and a way to render the HTML in a browser.  Once you become more skilled you will be able to edit the HTML files directly, open those in a browser, or even serve them from a web server.  However, for now let's keep it simple and use a tool that will do some of the work for us.  CodePen is a very good place to get started. The URL to their website it given below:
+In order to work with HTML you will need a way to edit the HTML and a way to render the HTML in a browser.  Once you become more skilled you will be able to edit the HTML files directly, open those in a browser, or even serve them from a web server.  However, for now let's keep it simple and use a tool that will do some of the work for us.  JS Bin is a very good place to get started. The URL to their website it given below:
 
 
-* [CODEPEN](http://codepen.io/pen/)
+* [JS Bin](http://jsbin.com/)
 
-CodePen will do a lot for you, but it is also pretty easy to use.  You can use it without creating an account, but then you will not be able save your work as easily.  It is recommended that you create an Free account using the SignUp process, which will require a valid email address.  Here is a short Youtube video that gives an overview of [CodePen](https://www.youtube.com/watch?v=UF0_eMojlEw).
+JS Bin will provide a quick and easy way to write HTML code and render it on the same page.  You can use it without creating an account, but then you will not be able save your work as easily.  It is recommended that you create an account, which will require a valid email address or GitHub account.  
 
 > Note: If you chose not SignUp and create an account, then you will need to manually keep track of the URL of each page you create.  The URL that is created will allow you to go back to those pages later.  
+
+## Topics
+
+Okay so enough talking about what we are going to do.  Let's get to it and start writing some HTML code.
+
+1. [Getting Started](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/01-getting_started)
+2. [Your First Text](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/02-first_text)
+3. [Using Paragraphs](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/03-paragraphs)
+4. [Adding a Title and Header](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/04-title_header)
+5. [Adding Pictures](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/05-pictures)
+6. [Emphasizing Text](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/06-emphasis)
+7. [Lists](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/07-lists)
+8. [Hyperlinks](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/08-links)
+9. [Advanced Topics](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/09-advanced)
 
 ## Other Resources
 

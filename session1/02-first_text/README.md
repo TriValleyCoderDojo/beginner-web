@@ -1,4 +1,4 @@
-## Your First Text
+# Your First Text
 
 Now you can start telling your story by typing some text inside of the `<body>` tags! Here is an example:
 
@@ -29,3 +29,7 @@ Now tell more of your story, what else happened?
 ```
 
 ![Telling more of the story](http://cl.ly/image/2w1Q090V1b2t/content#.png)
+
+-----------------------------------
+
+**Next HTML Topic:** [Using Paragraphs](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/03-paragraphs)

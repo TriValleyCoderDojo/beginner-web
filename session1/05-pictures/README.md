@@ -1,4 +1,4 @@
-## Adding Pictures
+# Adding Pictures
 
 This story would be a lot more interesting with pictures! Adding a picture to our story is simple, we just need to use the `<img>` tag and tell it where our image is.
 
@@ -28,3 +28,7 @@ Now we can add a couple of images to our story, as shown below:
 ```
 
 ![Story with images](http://cl.ly/image/3w2d1C0P1N3I/content#.png)
+
+-------------------------
+
+**Next HTML Topic:** [Emphasizing Text](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/06-emphasis)
