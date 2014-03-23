@@ -26,9 +26,9 @@ The next thing you are going to need is the public URL to your image file.  Natu
 
 **Important Note:** If you are installing Dropbox for the first and are using the new verion of Dropbox, then you may need to slightly change the URL to make your images render correctly.  The newer versions of Dropbox have a bug where they don't set the MIME content type correctly, depending upon the URL being used.  Sometimes the default public URL will not work and you need to change it.  You might need to change the www.dropbox.com to dl.dropbox.com.  For example, 
 
-https://www.dropbox.com/s/14ancvnk1hirift/Toothless2.PNG might not work from your HTML
+    https://www.dropbox.com/s/14ancvnk1hirift/Toothless2.PNG might not work from your HTML
 
-https://dl.dropbox.com/s/14ancvnk1hirift/Toothless2.PNG but this will work fine.  
+    https://dl.dropbox.com/s/14ancvnk1hirift/Toothless2.PNG but this will work fine.  
 
 This can be a particularly frustrating thing to figure out, because it will work just fine in a browser.
 
