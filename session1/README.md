@@ -6,7 +6,7 @@ In this session we are going to use [HTML](http://en.wikipedia.org/wiki/HTML) to
 
 **Important Terms**
 
-HTML is a markup language that we can use to add structure and formatting to content to be displayed in web browsers.
+HTML stands for HyperText Markup Language. HTML is a markup language that we can use to add structure and formatting to content to be displayed in web browsers.
 
 A web browser (commonly referred to as a browser) is a software application for retrieving, presenting and traversing information resources on the World Wide Web.  Examples are Firefox, Chrome, Internet Explorer and Safari. 
 
@@ -14,15 +14,15 @@ A web page is made up of many HTML elements, each a tag, or more commonly a set 
 
 **Web Development**
 
-Today we will be taking our first steps into web development.  To get started we'll need to learn how to use html, so today we are going to:
+Today we will be taking our first steps into web development.  To get started we'll need to learn how to use HTML, so today we are going to:
 
-* Start with a basic HTML 
+* Start with basic HTML 
 * Tell our story and use HTML to add structure and formatting
 * Display (render) the HTML in a browser
 
 **Demo**
 
-Below is an exmaple of HTML code:
+Below is an example of HTML code:
 
 ```
 <!DOCTYPE html>
@@ -72,7 +72,7 @@ JS Bin will provide a quick and easy way to write HTML code and render it on the
 
 ### Custom Images
 
-Once you have learned the basisc of HTML, you will then be able to create your own story.  More than likely you will want to use your own set of images.  These could be really anything that you can imagine: digital pictures that you took with a camera or phone, something from some one else's website, or even something that was drawn and scanned.  You could get your custom images from many different places.  The important things is once you have your custom images, you will need to have some place where you can upload your image files and then make them available over the Internet, so you can use them in your story.  There are a number of image sharing sites that you could use, but we are going suggest and show you how to use Dropbox for this.  Dropbox is a good choice because its free and easy to use.  However, you will need to have a valid email address to use Dropbox.  
+Once you have learned the basics of HTML, you will then be able to create your own story.  More than likely you will want to use your own set of images.  These could be really anything that you can imagine: digital pictures that you took with a camera or phone, something from some one else's website, or even something that was drawn and scanned.  You could get your custom images from many different places.  The important things is once you have your custom images, you will need to have some place where you can upload your image files and then make them available over the Internet, so you can use them in your story.  There are a number of image sharing sites that you could use, but we are going suggest and show you how to use Dropbox for this.  Dropbox is a good choice because its free and easy to use.  However, you will need to have a valid email address to use Dropbox.  
 
 If you have not yet installed Dropbox on your computer, please do that now.  Here is an informative video that will walk through the process for both Mac and Windows computers.
 
