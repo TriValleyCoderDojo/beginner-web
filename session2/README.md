@@ -1,4 +1,4 @@
-# Build a web page, Session 2 – CSS
+# Build a web page, Session 2 – Introduction to CSS
 
 ## Overview
 
@@ -14,7 +14,7 @@ CSS is made up of multiple parts: a selector, the curly brackets and a set of on
 
 On of the most confusing things about CSS is the cascading part.  What this means is that rules will cascade through all the rules that could apply to an HTML element.  But it starts from the closest rule and then goes out to more and more general rules.  For example, consider the case of the body and the anchor that we talked about above.  First, the cascading would start by applying the rules for the anchor tag, and then it would move to the rules for the body.  Sometimes this can be confusing and cause some strange things to happen.  
 
-Let's look at an exmaple in more detail. Here's the CSS from the story in the first session:
+Yes, this does sound confusing, and you will need to think about it a little bit, before it does make sense.  Let's look at some examples and hopefully that will help to clear things up. Here is some simple CSS: 
 
 ```css
 body {
@@ -55,7 +55,7 @@ And the HTML:
 
 When we combine them using CodePen, we get a page that looks like this:
 
-![Story with CSS](screenshots/jsbin_adding_css_for_green_color.png)
+![Story with CSS](screenshots/1.png)
 
 ### How CSS Works
 
@@ -133,7 +133,7 @@ name. Let's add this to our CSS file:
 }
 ```
 
-![.big class example](screenshots/jsbin_adding_first_css_class.PNG)
+![.big class example](screenshots/2.png)
 
 Using a class, we only increased the font size for Great Danes and Black Labs!
 
@@ -157,7 +157,7 @@ And here's a new CSS rule for the ```red``` class:
 }
 ```
 
-![.red class example](screenshots/jsbin_adding_second_css_class.PNG)
+![.red class example](screenshots/3.png)
 
 ### IDs
 
@@ -185,7 +185,7 @@ our new CSS rule:
 }
 ```
 
-![#doglist ID example](screenshots/jsbin_adding_css_id.PNG)
+![#doglist ID example](screenshots/4.png)
 
 **Protip!** Selecting by ID is faster for the browser to process than selecting
 by class or tag name. Use IDs whenever you need to style just one element!
@@ -214,7 +214,7 @@ let's add a new ```<ul>``` after ```#doglist```:
 
 Here is how our page should look after we've added the new HTML:
 
-![Hierarchy example 1](screenshots/jsbin_adding_css_parent_child_1.PNG)
+![Hierarchy example 1](screenshots/5.png)
 
 So let's say our boss comes in and tells us we have to make all the red dogs
 be italic. We can't edit our ```.red``` rule that we have already, because that
@@ -232,7 +232,7 @@ the elements that contain them. To make all the ```.red``` elements inside of
 }
 ```
 
-![Hierarchy example 2](screenshots/jsbin_adding_css_parent_child_2.PNG)
+![Hierarchy example 2](screenshots/6.png)
 
 We can describe containment as deeply as we want! For example, here is a
 selector for ```<img>``` tags that are inside of ```<strong>``` tags
@@ -274,7 +274,7 @@ li.red {
 }
 ```
 
-![Combo example 1](screenshots/jsbin_combining_css.PNG)
+![Combo example 1](screenshots/7.png)
 
 Notice how even though the ```<h3>``` is of the class ```.red```, it doesn't
 get underlined because we combined the class with the tag name in the selector.
@@ -313,7 +313,7 @@ cool.
 
 Let's wipe our CSS clean. It's time for a redesign.
 
-![Real World Example 1](screenshots/jsbin_css_real_world_1.PNG)
+![Real World Example 1](screenshots/8.png)
 
  I'm just going to throw
 some new properties at you! Play around with them and see if you can figure
@@ -333,7 +333,7 @@ body {
 }
 ```
 
-![Real World Example 2](screenshots/jsbin_css_real_world_2.PNG)
+![Real World Example 2](screenshots/9.png)
 
 Those ```<img>```s are looking a bit large!
 
@@ -343,7 +343,7 @@ img {
 }
 ```
 
-![Real World Example 3](screenshots/jsbin_css_real_world_3.PNG)
+![Real World Example 3](screenshots/10.png)
 
 Let's give it a dash of color.
 
@@ -354,7 +354,7 @@ html {
 }
 ```
 
-![Real World Example 4](screenshots/jsbin_css_real_world_4.PNG)
+![Real World Example 4](screenshots/11.png)
 
 That header needs a bit of more personality.
 ```css
@@ -368,7 +368,7 @@ h1 {
 }
 ```
 
-![Real World Example 5](screenshots/jsbin_css_real_world_5.PNG)
+![Real World Example 5](screenshots/12.png)
 
 Let's scroll to the bottom. I want the text color of the ```<li>```s in
 ```#doglist``` to be ```midnightblue```, the text color of the ```<li>```s in
@@ -391,7 +391,7 @@ ul#catlist li {
 }
 ```
 
-![Real World Example 6](screenshots/jsbin_css_real_world_6.PNG)
+![Real World Example 6](screenshots/13.png)
 
 Let's add a cool effect when you hover an ```<li>```!
 
@@ -406,6 +406,7 @@ li:hover {
 }
 ```
 
-![Real World Example 7](screenshots/jsbin_css_real_world_7.png)
+![Real World Example 7](screenshots/14.png)
 
-
+Here's a copy of the finished product on my CodePen!
+[http://codepen.io/hunterbridges/pen/ahmAJ](http://codepen.io/hunterbridges/pen/ahmAJ)
