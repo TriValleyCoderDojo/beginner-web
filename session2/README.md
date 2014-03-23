@@ -10,9 +10,9 @@ more commonly known as CSS. We are going to use CSS to improve the _look and fee
 
 CSS is a language that can be used to describe how HTML is supposed to look.  The formal definition makes the distinction that HTML provides the structures for the content, while CSS controls how it looks.  CSS is a set of additional rules that you put on top of HTML that allows you to change the way it is rendered.  Simple examples would be to give it a border or a background color.  More complicated examples would be to display some content on the left and some other content on the right.  You can actually do a lot with CSS.  
 
-CSS is made up of multiple parts: a selector, the curly brackets and a set of one more properties. The selector is used to filter out the set of HTML elements that the CSS will do something on.  For example, if the selector is body, then it will effect the body element.  If on the other hand the selector was for a, then then it would effect all anchor tags.  The curly brackets are used only to separate the selector from the set of properties that will be applied to the HTML elements.  The set of properties need to be one per line and ended with a semi-colin(;).
+CSS is made up of multiple parts: a selector, the curly brackets and a set of one more properties. The selector is used to filter out the set of HTML elements that the CSS will do something on.  For example, if the selector is body, then it will effect the body element.  If on the other hand the selector was for a, then then it would effect all anchor tags.  The curly brackets are used only to separate the selector from the set of properties that will be applied to the HTML elements.  Properties are entered one per line and ended with a semi-colon(;).
 
-On of the most confusing things about CSS is the cascading part.  What this means is that rules will cascade through all the rules that could apply to an HTML element.  But it starts from the closest rule and then goes out to more and more general rules.  For example, consider the case of the body and the anchor that we talked about above.  First, the cascading would start by applying the rules for the anchor tag, and then it would move to the rules for the body.  Sometimes this can be confusing and cause some strange things to happen.  
+One of the most confusing things about CSS is the cascading part.  What this means is that rules will cascade through all the rules that could apply to an HTML element.  But it starts from the closest rule and then goes out to more and more general rules.  For example, consider the case of the body and the anchor that we talked about above.  First, the cascading would start by applying the rules for the anchor tag, and then it would move to the rules for the body.  Sometimes this can be confusing and cause some strange things to happen.  
 
 Yes, this does sound confusing, and you will need to think about it a little bit, before it does make sense.  Let's look at some examples and hopefully that will help to clear things up. Here is some simple CSS: 
 
@@ -107,7 +107,7 @@ Let's break down the concepts of **selectors** and **declarations**.
 
 So far we have seen selectors that find HTML elements by tag name.
 CSS allows us to be much more flexible about targeting HTML elements to modify.
-We can select using **classes**, **IDs**, and **parent-child relationships**.
+We can also select using **classes**, **IDs**, and **parent-child relationships**.
 
 ### Classes
 
@@ -194,7 +194,7 @@ by class or tag name. Use IDs whenever you need to style just one element!
 
 Here is where things start to get interesting. We can select HTML elements
 based on which elements contain them. To get set up for this example,
-let's add a new ```<ul>``` after ```#doglist```:
+let's add a new ```<ul>``` for cats after ```#doglist```:
 
 ```html
 <ul id="doglist">
@@ -218,7 +218,7 @@ Here is how our page should look after we've added the new HTML:
 
 So let's say our boss comes in and tells us we have to make all the red dogs
 be italic. We can't edit our ```.red``` rule that we have already, because that
-would make our ```<h3>``` tag also turn red! But what we can do is create a
+would make our ```<h3>``` tag also turn italics! But what we can do is create a
 selector that only targets ```.red``` elements inside of ```#doglist```, and
 that will do exactly what we want.
 
