@@ -1,12 +1,11 @@
 # Getting Started
 
-To get started you should open a blank project on CODEPEN: [http://codepen.io/pen/](http://codepen.io/pen/)
+To get started you should open a new bin project on : [http://jsbin.com/](http://jsbin.com/)
 
-![CODEPEN empty project](http://cl.ly/image/35081n120I42/content#.png)
+![JS Bin empty bin](https://github.com/TriValleyCoderDojo/beginner-web/blob/master/screenshots/js_bin_start.PNG)
 
 For now ignore the JS and CSS areas so uncheck the boxes next to them.
 
-![Uncheck JS and CSS](http://cl.ly/image/1f3C0E1O1t2Q/content#.png)
 
 ### Base HTML 
 
