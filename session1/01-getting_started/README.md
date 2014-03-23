@@ -2,7 +2,7 @@
 
 To get started you should open a new bin project on : [http://jsbin.com/](http://jsbin.com/)
 
-![JS Bin empty bin](https://github.com/TriValleyCoderDojo/beginner-web/blob/master/screenshots/js_bin_start.PNG)
+![JS Bin empty bin](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/js_bin_start.PNG)
 
 For now ignore the JS and CSS areas so uncheck the boxes next to them.
 
