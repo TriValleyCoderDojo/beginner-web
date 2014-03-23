@@ -5,7 +5,7 @@ Session 3 - Advanced CSS
 In the last session we learned a bit about [Cascading Style Sheets](http://en.wikipedia.org/wiki/CSS) (CSS for short). Today we're going to dig back in and learn some advanced CSS tactics to really make our page look awesome!
 
 ## Recap
-Last week we learned about a few things...
+Last session we learned about a few things...
 
 ### Selectors - Classes, IDs, and parent-child relationships
 - [We added a ```class``` attribute](https://github.com/CoderDojoSF/webdev-lesson-2-css/blob/master/README.md#classes) to one of our tags so we could apply styles to every element that was labeled with that class. 
@@ -18,7 +18,7 @@ Last week we learned about a few things...
 
 ## Box Model
 
-In HTML, every element is a rectangular box. Every box a height and a width that defines how big it is and how much space it will take up on the page. 
+In HTML, every element is a rectangular box. Every box has a height and a width that defines how big it is and how much space it will take up on the page. 
 
 If we want to make an image on our page 500px wide and 400px high, we could do the following:
 
@@ -137,7 +137,9 @@ Let's decide how we want this to look. Probably something like this...
 
 We are going to have our top section stretch across the screen while the middle section is split into two columns. The bottom will be all one section.
 
-To do that, we're going to wrap our pictures and their caption paragraphs in two different ```divs``` 
+To create these different sections, we will use the <div> tag. The <div> tag is used to define a division or a section in an HTML document, and can be used to group block-elements to format them with CSS.
+
+So we're going to wrap our pictures and their caption paragraphs in two different ```divs``` 
 
 ```html
 <div id="first-picture"> 
@@ -271,7 +273,7 @@ In this case, our ```left``` and ```top``` position measurements were being take
 
 ## Transitions
 
-At the end of last week we learned how to do a transition when you hover over a ```li```. Let's try making that cooler by experimenting with some modifications...
+At the end of last session we learned how to do a transition when you hover over a ```li```. Let's try making that cooler by experimenting with some modifications...
 
 ```css
 li:hover {
@@ -297,6 +299,6 @@ Play around! Used wisely, transition effects can help create a delightful webpag
 
 ## Summary
 
-Thanks! Next week we'll start digging into Javascript and some other cool things.
+Thanks! Next session we'll start digging into Javascript and some other cool things.
 
 [The Pen I used today](http://codepen.io/donjo/pen/vBFwl).
