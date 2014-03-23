@@ -12,7 +12,7 @@ Now you can start telling your story by typing some text inside of the `<body>` 
 </html>
 ```
 
-![Basic demo of HTML in action](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/jsbin_first_line_entry.png)
+![Basic demo of HTML in action](http://cl.ly/image/2P3l3V1A302i/content#.png)
 
 Now tell more of your story, what else happened?
 
@@ -28,8 +28,9 @@ Now tell more of your story, what else happened?
 </html>
 ```
 
-![Telling more of the story](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/jsbin_second_line_entry.png)
+![Telling more of the story](http://cl.ly/image/2w1Q090V1b2t/content#.png)
 
 -----------------------------------
 
 **Next HTML Topic:** [Using Paragraphs](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/03-paragraphs)
+
