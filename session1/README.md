@@ -56,16 +56,23 @@ To get started the only prerequites you will need are
 * A willingness to learn
 * A computer
 * An internet connection
-* Some kind of editing tool
+* Some kind of HTML editing tool
+* A place to make images available
+
+### HTML Editor
 
 In order to work with HTML you will need a way to edit the HTML and a way to render the HTML in a browser.  Once you become more skilled you will be able to edit the HTML files directly, open those in a browser, or even serve them from a web server.  However, for now let's keep it simple and use a tool that will do some of the work for us.  JS Bin is a very good place to get started. The URL to their website it given below:
 
 
 * [JS Bin](http://jsbin.com/)
 
-JS Bin will provide a quick and easy way to write HTML code and render it on the same page.  You can use it without creating an account, but then you will not be able save your work as easily.  It is recommended that you create an account, which will require a valid email address or GitHub account.  
+JS Bin will provide a quick and easy way to write HTML code and render it on the same page.  You can use it without creating an account, but then you will not be able save your work as easily.  It is strongly encouraged that you create an account, which will require a valid email address or GitHub account.  If you don't have your own email address, ask your parent or older sibling if you can use theirs.  
 
 > Note: If you chose not SignUp and create an account, then you will need to manually keep track of the URL of each page you create.  The URL that is created will allow you to go back to those pages later.  
+
+### Custom Images
+
+Once you have learned the basisc of HTML, you will then be able to create your own story.  More than likely you will want to use your own set of images.  These could be really anything that you can imagine: digital pictures that you took with a camera or phone, something from some one else's website, or even something that was drawn and scanned.  You could get your custom images from many different places.  The important things is once you have your custom images, you will need to have some place where you can upload your image files and then make them available over the Internet, so you can use them in your story.  There are a number of image sharing sites that you could use, but we are going suggest and show you how to use Dropbox for this.  Dropbox is a good choice because its free and easy to use.  
 
 ## Topics
 
