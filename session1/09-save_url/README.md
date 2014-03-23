@@ -12,7 +12,7 @@ You will use the Share button to get the public URL to give out to your friends 
 
 ![Share Button](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/share_url.PNG)
 
-Then next thing you might want to do is to make your work easily searchable to other members of the TriValley CoderDojo by giving your project a searchable tag.  A suggested tag would be "tvcd".  Once you assign a tag to your project then other people will be able to find all projects with the matching tag from the Tags->Search function in CodePen.  Of course, you would only want to do this for unique work, and this particular project.  But it is good to know how to share your projects later.  
+Then next thing you might want to do is to make your work easily searchable to other members of the TriValley CoderDojo by giving your project a searchable tag.  A suggested tag would be "tvcd".  You can set the tag by clicking on the Info button and entering your tag in the input field.  Once you assign a tag to your project then other people will be able to find all projects with the matching tag from the Tags->Search function in CodePen.  Of course, you would only want to do this for unique work, and this particular project.  But it is good to know how to share your projects later.  
 
 ![Share Button](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/set_tag.PNG)
 
