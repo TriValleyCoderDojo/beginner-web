@@ -9,9 +9,7 @@ and feel_ of content on the web page.
 
 ### What is CSS?
 
-CSS is a language that can be used to describe how HTML is supposed to look.
-The important distinction here is that HTML structures the content,
-while CSS controls how it looks.  
+CSS is a language that can be used to describe how HTML is supposed to look.  The formal definition makes the distinction that HTML provides the structures for the content, while CSS controls how it looks.  CSS is a set of additional rules that you put on top of HTML that allows you to change the way it is rendered.  Simple examples would be to give it a border or a background color.  More complicated examples would be to display some content on the left and some other content on the right.  You can actually do a lot with CSS.  
 
 CSS is made up of multiple parts: a selector, the curly brackets and a set of one more properties. The selector is used to filter out the set of HTML elements that the CSS will do something on.  For example, if the selector is body, then it will effect the body element.  If on the other hand the selector was for a, then then it would effect all anchor tags.  The curly brackets are used only to separate the selector from the set of properties that will be applied to the HTML elements.  The set of properties need to be one per line and ended with a semi-colin(;).
 
