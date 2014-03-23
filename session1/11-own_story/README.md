@@ -6,7 +6,7 @@ Feel free to refer back to the previous steps if you don't remember exactly how 
 
 ## Create At Least One Page
 
-You will want to create at least one page for your story.  However, you are not be limited to a single page.  You can create as many pages as you would like.  All you would need to do is use hyperlinks (the anchor tag) to link multiple pages together.  However, the only thing to think about with that is making sure that you navigational links to be able able to move around from page to page.  It is not considered a good practice to rely upon the browser Back button.  
+You will want to create at least one page for your story.  However, you are not be limited to a single page.  You can create as many pages as you would like.  All you would need to do is use hyperlinks (the anchor tag) to link multiple pages together.  However, the only thing to think about is that you create navigational links to be able to move around from page to page.  It is not considered a good practice to rely upon the browser Back button.  
 
 ## Including Custom Images
 
