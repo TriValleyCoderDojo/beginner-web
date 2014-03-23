@@ -1,8 +1,8 @@
 # Getting Started
 
-To get started you should open a blank project on CODEPEN: [http://codepen.io/pen/](http://codepen.io/pen/)
+To get started you should open a blank project on CodePen: [http://codepen.io/pen/](http://codepen.io/pen/)
 
-![CODEPEN empty project](http://cl.ly/image/35081n120I42/content#.png)
+![CodePen empty project](http://cl.ly/image/35081n120I42/content#.png)
 
 For now ignore the JS and CSS areas so uncheck the boxes next to them.
 
@@ -19,7 +19,7 @@ Now add the minimal amount of HTML to make the page work. Start by clicking in t
 
 Your screen should look like this now:
 
-![CODEPEN after adding html tags](http://cl.ly/image/1y1H1M1n2r1m/content#.png)
+![CodePen after adding html tags](http://cl.ly/image/1y1H1M1n2r1m/content#.png)
 
 Next add the `<head>` and `<body>` tags. 
 

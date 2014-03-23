@@ -2,7 +2,7 @@
 
 Congratulations!  You now know enough about HTML code to be able to create your own story.  How about you go ahead and create a story of your own.  You will want this to be something that interests you, and you would like to share with other people across the Internet.  Give it a moment to think about.  
 
-Feel free to refer back to the previous steps if you don't remember exactly how to do something.  You should be able to use alot of what we learned with the dog story for you own story.  
+Feel free to refer back to the previous steps if you don't remember exactly how to do something.  You should be able to use a lot of what we learned with the dog story for you own story.  
 
 ## Create At Least One Page
 
