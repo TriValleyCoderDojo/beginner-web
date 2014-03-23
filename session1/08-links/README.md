@@ -37,4 +37,4 @@ This is the simplest and most common use of the anchor tag, but there are many o
 
 --------
 
-**Next HTML Topic:** [Advanced Topics](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/09-advanced)
+**Next HTML Topic:** [Saving the URL](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/09-save_url)
