@@ -39,7 +39,7 @@ You will notice a few new things in the html above. We added a second story, we 
 
 ## Style
 
-In the next lesson we will start learning how to add style to our story using html attributes and css. Here is an example to help get you excited about the next lesson.
+In the next session we will start learning how to add style to our story using html attributes and css. Here is an example to help get you excited about it.
 
 In Codepen we want to check the box next to CSS and then paste the following css code into the CSS box:
 
