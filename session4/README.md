@@ -1,9 +1,10 @@
-Introduction to JavaScript - Session 4
+Session 4 - Introduction to JavaScript
 =================
+
 ### CodePen link: http://codepen.io/jensechu/pen/imHpc
 
 ## What is JavaScript?
-JavaScript is a programming language that your browser speaks. It is how you can add life into your websites by making the elements you put on the page interact with the user, reading your page. We might use it to pop-up an alert box, do some math, or even change the text on your page without editting your HTML! 
+JavaScript is a programming language that your browser speaks. It is how you can add life to your websites by making the elements you put on the page interact with the person reading your page. We might use it to pop-up an alert box, do some math, or even change the text on your page without editing your HTML! 
 
 ## Using the Inspector and console.log();
 Unlike HTML and CSS where you can see what changes you make in your Codepen.IO websites, Javascript requires you to use the web inspector's console to see what is going on. The console is a way to see exactly what your JavaScript code is doing, since sometimes you can't tell if your code works or not just by looking at it like in HTML or CSS. You can access the console in various browsers:
@@ -23,8 +24,8 @@ Variables in JavaScript let you save data with associated names. Let's try writi
 * Add a second variable with a number ``var number2 = 5``
 * Try typing ``alert(number1 + number2)`` and click "Run". 
 * Now let's try adding string variables. Strings should start and end with quote marks. You can use either single quote (') or double quote (") but you need to use the same one for both beginning and ending.
-* Add a variable called first name ``var firstName = "Jeeyun"``
-* Add a second variable called last name ``var lastName = "Lim"``
+* Add a variable called first name ``var firstName = “Coder”``
+* Add a second variable called last name ``var lastName = "Dojo”``
 * Now try typing ``alert(firstName + lastName)`` and click "Run". 
 * Hmm the format doesn't look right. Let's try adding a space between them: ``alert(firstName + " " + lastName)``. Much better!
 
@@ -67,7 +68,7 @@ var getMyName = function() {
 }
 ```
 
-## Using Variables
+## Adding Variables
 Variables in JavaScript let you save data with associated names. Let's try teaching our script what our name is, since right now if we just run ``prompt("What is your name?")`` our script has no way to recall our name again. 
 
 * In your JavaScript Inspector try: ``console.log(name);``
