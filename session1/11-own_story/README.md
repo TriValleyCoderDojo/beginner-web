@@ -1,4 +1,4 @@
-# Hyperlinks
+# Create Your Own Story
 
 One of the things that makes web pages so amazing for telling stories is you can **link** things together with other web pages on the internet and it is really easy to do!
 
@@ -37,4 +37,4 @@ This is the simplest and most common use of the anchor tag, but there are many o
 
 --------
 
-**Next HTML Topic:** [Advanced Topics](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/09-advanced)
+**Next Session:** [Introduction to CSS](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session2)
