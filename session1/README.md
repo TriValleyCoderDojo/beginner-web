@@ -74,6 +74,10 @@ JS Bin will provide a quick and easy way to write HTML code and render it on the
 
 Once you have learned the basisc of HTML, you will then be able to create your own story.  More than likely you will want to use your own set of images.  These could be really anything that you can imagine: digital pictures that you took with a camera or phone, something from some one else's website, or even something that was drawn and scanned.  You could get your custom images from many different places.  The important things is once you have your custom images, you will need to have some place where you can upload your image files and then make them available over the Internet, so you can use them in your story.  There are a number of image sharing sites that you could use, but we are going suggest and show you how to use Dropbox for this.  Dropbox is a good choice because its free and easy to use.  
 
+If you have not yet installed Dropbox on your computer, please do that now.  Here is an informative video that will walk through the process for both Mac and Windows computers.
+
+[Dropbox Installation](https://www.dropbox.com/help/243/en)
+
 ## Topics
 
 Okay so enough talking about what we are going to do.  Let's get to it and start writing some HTML code.
