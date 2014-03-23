@@ -27,7 +27,7 @@ Now we can add a couple of images to our story, as shown below:
 </html>
 ```
 
-![Story with images](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/jsbin_adding_pictures.png)
+![Story with images](http://cl.ly/image/3w2d1C0P1N3I/content#.png)
 
 -------------------------
 

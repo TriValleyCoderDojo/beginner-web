@@ -4,8 +4,7 @@
 
 In this session we will learn about
 [Cascading Style Sheets](http://en.wikipedia.org/wiki/CSS),
-more commonly known as CSS. We are going to use CSS to improve the _look
-and feel_ of content on the web page.
+more commonly known as CSS. We are going to use CSS to improve the _look and feel_ of content on the web page.
 
 ### What is CSS?
 

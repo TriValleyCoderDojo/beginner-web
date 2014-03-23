@@ -17,7 +17,7 @@ Sometimes we want to bring more attention to parts of our story. One way we can 
 </html>
 ```
 
-![Story with strong](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/jsbin_adding_strong_bold_tag.png)
+![Story with strong](http://cl.ly/image/1u083V0I0Y3O/content#.png)
 
 We can bring emphasis to parts of our story by *making them italic*. We use the `<em>` tag for emphasis. Here is an example:
 
@@ -36,7 +36,7 @@ We can bring emphasis to parts of our story by *making them italic*. We use the 
 </html>
 ```
 
-![Story with emphasis](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/jsbin_adding_em_italics_tag.png)
+![Story with emphasis](http://cl.ly/image/45033t3W3v3R/content#.png)
 
 ------------------------------------
 

@@ -49,6 +49,8 @@ When this HTML is displayed (rendered) in a browser it will create a web page th
 
 ![demo](http://cl.ly/image/0e1d3b2C3y2P/content#.png)
 
+Check out the [live demo](http://codepen.io/anon/pen/vmibf) to experiment yourself.
+
 ## Prerequisites and Tools
 
 To get started the only prerequites you will need are 
@@ -61,22 +63,23 @@ To get started the only prerequites you will need are
 
 ### HTML Editor
 
-In order to work with HTML you will need a way to edit the HTML and a way to render the HTML in a browser.  Once you become more skilled you will be able to edit the HTML files directly, open those in a browser, or even serve them from a web server.  However, for now let's keep it simple and use a tool that will do some of the work for us.  JS Bin is a very good place to get started. The URL to their website it given below:
+In order to work with HTML you will need a way to edit the HTML and a way to render the HTML in a browser.  Once you become more skilled you will be able to edit the HTML files directly, open those in a browser, or even serve them from a web server.  However, for now let's keep it simple and use a tool that will do some of the work for us.  CodePen is a very good place to get started.  The URL to their website it given below:
 
+* [CODEPEN](http://codepen.io/pen/)
 
-* [JS Bin](http://jsbin.com/)
-
-JS Bin will provide a quick and easy way to write HTML code and render it on the same page.  You can use it without creating an account, but then you will not be able save your work as easily.  It is strongly encouraged that you create an account, which will require a valid email address or GitHub account.  If you don't have your own email address, ask your parent or older sibling if you can use theirs.  
+CodePen will do a lot for you, but it is also pretty easy to use.  You can use it without creating an account, but then you will not be able save your work as easily.  It is recommended that you create an Free account using the SignUp process, which will require a valid email address.  If you don't have your own email address, ask your parent or older sibling if you can use theirs.  Here is a short Youtube video that gives an overview of [CodePen](https://www.youtube.com/watch?v=UF0_eMojlEw).
 
 > Note: If you chose not SignUp and create an account, then you will need to manually keep track of the URL of each page you create.  The URL that is created will allow you to go back to those pages later.  
 
 ### Custom Images
 
-Once you have learned the basisc of HTML, you will then be able to create your own story.  More than likely you will want to use your own set of images.  These could be really anything that you can imagine: digital pictures that you took with a camera or phone, something from some one else's website, or even something that was drawn and scanned.  You could get your custom images from many different places.  The important things is once you have your custom images, you will need to have some place where you can upload your image files and then make them available over the Internet, so you can use them in your story.  There are a number of image sharing sites that you could use, but we are going suggest and show you how to use Dropbox for this.  Dropbox is a good choice because its free and easy to use.  However, you will need to have a valid email address to use Dropbox.  
+Once you have learned the basisc of HTML, you will then be able to create your own story.  More than likely you will want to use your own set of images.  These could be really anything that you can imagine: digital pictures that you took with a camera or phone, something from some one else's website, or even something that was drawn and scanned.  You could get your custom images from many different places.  The important things is once you have your custom images, you will need to have some place where you can upload your image files and then make them available over the Internet, so you can use them in your story.  There are a number of image sharing sites that you could use, but we are going suggest and show you how to use Dropbox for this.  Dropbox is a good choice because its free and easy to use.  
 
-If you have not yet installed Dropbox on your computer, please do that now.  Here is an informative video that will walk through the process for both Mac and Windows computers.
+If you have not already installed Dropbox on your computer, please do that now.
 
-[Dropbox Installation](https://www.dropbox.com/help/243/en)
+[Dropbox Quick Tour](https://www.dropbox.com/tour)
+
+[Dropbox Install Video](https://www.dropbox.com/help/243/en)
 
 ## Topics
 
@@ -90,7 +93,7 @@ Okay so enough talking about what we are going to do.  Let's get to it and start
 6. [Emphasizing Text](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/06-emphasis)
 7. [Lists](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/07-lists)
 8. [Hyperlinks](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/08-links)
-9. [Saving the URL](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/09-save_url)
+9. [Hyperlinks](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/09-save_url)
 10. [Advanced Topics](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/10-advanced)
 11. [Create Your Own Story](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/11-own_story)
 
