@@ -49,8 +49,6 @@ When this HTML is displayed (rendered) in a browser it will create a web page th
 
 ![demo](http://cl.ly/image/0e1d3b2C3y2P/content#.png)
 
-Check out the [live demo](http://jsbin.com/rufivonu/1/) to experiment yourself.
-
 ## Prerequisites and Tools
 
 To get started the only prerequites you will need are 
