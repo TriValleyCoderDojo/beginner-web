@@ -56,5 +56,5 @@ img {
 }
 ```
 
-![Story with CSS](http://cl.ly/image/002B0l3l090P/content#.png)
+![Story with CSS](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/jsbin_adding_css_for_green_color.png)
 
