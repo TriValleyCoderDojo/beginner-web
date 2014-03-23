@@ -86,7 +86,9 @@ Okay so enough talking about what we are going to do.  Let's get to it and start
 6. [Emphasizing Text](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/06-emphasis)
 7. [Lists](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/07-lists)
 8. [Hyperlinks](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/08-links)
-9. [Advanced Topics](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/09-advanced)
+9. [Saving the URL](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/09-save_url)
+10. [Advanced Topics](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/10-advanced)
+11. [Create Your Own Story](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/11-own_story)
 
 ## Other Resources
 
