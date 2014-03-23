@@ -2,7 +2,7 @@
 
 This story would be a lot more interesting with pictures! Adding a picture to our story is simple, we just need to use the `<img>` tag and tell it where our image is.
 
-The `<img>` tag has an attribute called `src` and this is a web address (also known as a Universal Resource Location, or URL) to where the image has been saved. In this example, the image has been saved and then mapped with a bitly URL, and we are using a fully qualified link.  However, that is not the only way images can be referenced.  They could be just a file name that the page can reach directly.  More information can be found at [HTML img tag](http://www.w3schools.com/tags/tag_img.asp).
+The `<img>` tag has an attribute called `src` and this is the web address (also known as a Uniform Resource Locator, or URL) to where the image has been saved. In this example, the image has been saved and then mapped with a bitly URL, and we are using a fully qualified web address.  However, that is not the only way images can be referenced.  The image could just be a file name that the page can reach directly.  More information can be found at [HTML img tag](http://www.w3schools.com/tags/tag_img.asp).
 
 Here is an example `<img>` tag:
 

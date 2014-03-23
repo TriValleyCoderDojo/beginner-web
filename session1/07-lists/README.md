@@ -1,6 +1,6 @@
 ## Lists
 
-When making web pages, you will often need to create lists.  You may want to created a numbered list to show a sequence of things that need to happen.  You may want to just give a list of things that are grouped together.  Fortunately, HTML lets us create lists very easily.  There are two kinds ordered (`<ol>`) and unordereed (`<ul>`).  The ordered list will put a number in front of each item in the list.  An unordered list will simply put a large dot in fron of each item in the list.  For both ordered and unordered list, the items will use the `<il>` tags.  For more information on lists, refer to [HTML lists](http://www.w3schools.com/html/html_lists.asp). 
+When making web pages, you will often need to create lists.  You may want to created a numbered list to show a sequence of things that need to happen.  You may want to just give a list of things that are grouped together.  Fortunately, HTML lets us create lists very easily.  There are two kinds ordered (`<ol>`) and unordered (`<ul>`).  The ordered list will put a number in front of each item in the list.  An unordered list will simply put a large dot in front of each item in the list.  For both ordered and unordered list, the items will use the `<il>` tags.  For more information on lists, refer to [HTML lists](http://www.w3schools.com/html/html_lists.asp). 
 
 You can easily add a list to your story using `<ul>` and `<li>` tags. Here is an example:
 
