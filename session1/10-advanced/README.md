@@ -58,3 +58,8 @@ img {
 
 ![Story with CSS](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/jsbin_adding_css_for_green_color.png)
 
+--------
+
+**Next HTML Topic:** [Create Your Own Story](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session1/11-own_story)
+
+
