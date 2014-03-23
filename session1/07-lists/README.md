@@ -20,7 +20,7 @@ You can easily add a list to your story using `<ul>` and `<li>` tags. Here is an
 			<li>Poodles</li>
 			<li>Great Danes</li>
 			<li>Black Labs</li>
-		</li>
+		</ul>
 	</body>
 </html>
 ```
@@ -29,7 +29,7 @@ The `<ul>` tag tells the browser this is a list of items. The `<li>` tags are us
 
 ![Story with list of dogs](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/jsbin_adding_unordered_list.png)
 
-If you want the list to use numbers instead of bullet points you can change the `<ul>` tag (unordered list) to an `<ol>` tag (ordered list).
+If you want the list to use numbers instead of bullet points you can change the `<ul>` tag (unordered list) to an `<ol>` tag (ordered list). Don’t forget to change the closing tag to ‘</ol>’ as well!
 
 ```html
 <html>

@@ -1,5 +1,7 @@
 # Saving the URL
 
+<strong>This page is the same as the previous page “Hyperlinks”</strong>
+
 One of the things that makes web pages so amazing for telling stories is you can **link** things together with other web pages on the internet and it is really easy to do!
 
 In the pervious example I included three kinds of dogs that we saw at the park, now I'm going to use hyperlinks (the `<a>` tag) to link the dog names to their descriptions on Wikipedia.

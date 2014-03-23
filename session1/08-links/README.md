@@ -2,9 +2,9 @@
 
 One of the things that makes web pages so amazing for telling stories is you can **link** things together with other web pages on the internet and it is really easy to do!
 
-In the pervious example I included three kinds of dogs that we saw at the park, now I'm going to use hyperlinks (the `<a>` tag) to link the dog names to their descriptions on Wikipedia.
+In the previous example I included three kinds of dogs that we saw at the park, now I'm going to use hyperlinks (the `<a>` tag) to link the dog names to their descriptions on Wikipedia.
 
-The anchor (`<a>`) tag has an attribute called `href` and we will set that attribute equal to the url of the web page we want to link to. Here is an example where I link the word Poodles to the web page about Poodles on Wikipedia:
+The anchor (`<a>`) tag has an attribute called `href` and we will set that attribute equal to the web address (also known as a uniform resource locator or url) of the web page we want to link to. Here is an example where I link the word Poodles to the web page about Poodles on Wikipedia:
 
 ```
 <a href="http://en.wikipedia.org/wiki/Poodle">Poodles</a>
