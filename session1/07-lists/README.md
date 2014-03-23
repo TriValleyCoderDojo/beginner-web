@@ -20,7 +20,7 @@ You can easily add a list to your story using `<ul>` and `<li>` tags. Here is an
 			<li>Poodles</li>
 			<li>Great Danes</li>
 			<li>Black Labs</li>
-		</li>
+		</ul>
 	</body>
 </html>
 ```
