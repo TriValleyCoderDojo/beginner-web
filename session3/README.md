@@ -302,3 +302,5 @@ Play around! Used wisely, transition effects can help create a delightful webpag
 Thanks! Next session we'll start digging into Javascript and some other cool things.
 
 [The Pen I used today](http://codepen.io/donjo/pen/vBFwl).
+
+**Next Session:** [Session 4 - Introduction to JavaScript](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session4)

@@ -1,5 +1,6 @@
-Introduction to JavaScript - Session 4
+Session 4 - Introduction to JavaScript
 =================
+
 ### CodePen link: http://codepen.io/jensechu/pen/imHpc
 
 ## What is JavaScript?

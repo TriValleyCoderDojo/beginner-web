@@ -1,4 +1,5 @@
-# Build a web page - HTML - Session 1
+# Session 1 - HTML
+============================
 
 ## Overview
 

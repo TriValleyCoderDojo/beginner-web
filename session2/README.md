@@ -1,4 +1,5 @@
-# Build a web page, Session 2 – Introduction to CSS
+Session 2 – Introduction to CSS
+============================
 
 ## Overview
 
@@ -410,3 +411,5 @@ li:hover {
 
 Here's a copy of the finished product on my CodePen!
 [http://codepen.io/hunterbridges/pen/ahmAJ](http://codepen.io/hunterbridges/pen/ahmAJ)
+
+**Next Session:** [Session 3 - Advanced CSS](https://github.com/TriValleyCoderDojo/beginner-web/tree/master/session3)
