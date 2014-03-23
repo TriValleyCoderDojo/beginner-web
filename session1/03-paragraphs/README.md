@@ -15,7 +15,7 @@ Add the `<p>` around the paragraphs:
 </html>
 ```
 
-![Adding paragraph tags](http://cl.ly/image/1U053V060k0u/content#.png)
+![Adding paragraph tags](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/jsbin_adding_paragraph_tags.png)
 
 Now the paragraphs are displayed correctly!
 
