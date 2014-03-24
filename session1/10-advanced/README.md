@@ -1,4 +1,4 @@
-CodePen# Advanced Topics
+# Advanced Topics
 
 ## Telling More Than One Story
 
