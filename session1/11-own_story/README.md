@@ -24,7 +24,7 @@ The next thing you are going to need is the public URL to your image file.  Natu
 
 ![Dropbox Toolbar](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/dropbox_2.jpg)
 
-**Important Note:** If you are installing Dropbox for the first and are using the new verion of Dropbox, then you may need to slightly change the URL to make your images render correctly.  The newer versions of Dropbox have a bug where they don't set the MIME content type correctly, depending upon the URL being used.  Sometimes the default public URL will not work and you need to change it.  You might need to change the www.dropbox.com to dl.dropbox.com.  
+**Important Note:** If you are installing Dropbox for the first time and are using the new verion of Dropbox, then you may need to slightly change the URL to make your images render correctly.  The newer versions of Dropbox have a bug where they don't set the MIME content type correctly, depending upon the URL being used.  Sometimes the default public URL will not work and you need to change it.  You might need to change the www.dropbox.com to dl.dropbox.com.  
 
 For example, the following URL might not work from in your HTML:
     
