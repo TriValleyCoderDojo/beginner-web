@@ -10,7 +10,7 @@ So then after you click the Save button, things get a little more interesting.  
 ![After Save Button](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/after_save.PNG)
 
 
-You will use the Share button to get the public URL to give out to your friends and family.  When you click on the Share button a fly-out window appears below it.  You will notice in the window is the public URL.  You can cut and paste it to share.  There are other options here, but I will leave that to you to explore on your own.  
+You will use the Share button to get the public URL to give out to your friends and family.  When you click on the Share button a fly-out window appears below it.  You will notice in the window is the public URL.  You can cut and paste it to share.  Unfortunately, you don't get any control over the URL that CodePen creates for you, and you just need to use what they give you.  There are other options here, but I will leave that to you to explore on your own.  
 
 ![Share Button](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/share_url.PNG)
 
