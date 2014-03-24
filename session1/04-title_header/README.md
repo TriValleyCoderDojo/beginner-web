@@ -19,7 +19,7 @@ Also, we need to add a main header.  The header will need to go in the body.  It
 
 ![Story with title](http://cl.ly/image/1e352r043A1x/content#.png)
 
-Page headings are created with the <hn> tag, where n is a number between 1 and 6. <h1> defines the most important heading. <h6> defines the least important heading. The larger the number the smaller the font that will be used.  However, each header will bold to be different from regular text. 
+Page headings are created with the `<hn>` tag, where n is a number between 1 and 6. `<h1>` defines the most important heading. `<h6>` defines the least important heading. The larger the number the smaller the font that will be used.  However, each header will bold to be different from regular text.  More information on headers can be found here: [Header Tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements).
 
 
 ------------------------------------
