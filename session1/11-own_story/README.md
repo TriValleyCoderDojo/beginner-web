@@ -12,7 +12,7 @@ You will want to create at least one page for your story.  However, you are not 
 
 Naturally, you are going to want to include your own images.  The images provided in the dog story are great for the dog story, but they probably won't work for your story.  So you are going to need to upload your images and make them available across the Internet, so you can use them in the img tag.  
 
-Actually, Dropbox makes that really easy.  Once Dropbox has been installed on your computer, it will do most of the work for you.  It it will take care of uploading the files and it will create URLs for you.  All you really need to do is to drop the image files you want to use in the directory created by Dropbox.  But it gets even better because you don't even need to remember where that directory is, just let Dropbox tell you.  
+Actually, Dropbox makes that really easy.  Once Dropbox has been installed on your computer, it will do most of the work for you.  It will take care of uploading the files, and it will create URLs for you.  All you really need to do is to put the image files in the directory created by Dropbox.  But it gets even better because you don't even need to remember where that directory is, just let Dropbox tell you.  
 
 Start by clicking on the Dropbox icon in your tool bar.
 
