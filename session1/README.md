@@ -11,7 +11,11 @@ HTML stands for HyperText Markup Language. HTML is a markup language that we can
 
 A web browser (commonly referred to as a browser) is a software application for retrieving, presenting and traversing information resources on the World Wide Web.  Examples are Firefox, Chrome, Internet Explorer and Safari. 
 
-A web page is made up of many HTML elements, each a tag, or more commonly a set of tags, enclosed in angle brackets. The paragraph above is an example of how you mark a paragraph in html, by surrounding it in opening and closing `<p>` tags.
+A web page is made up of many HTML elements, each element has a set of tags, enclosed in angle brackets, and then tags can can have attributes. For example: 
+
+`<tag attribute="someValue">Some Text Here</tag>`
+
+The whole thing would be the element.  The set of tags are on the outside, and the attribute is something additional for the tag.  
 
 **Web Development**
 
