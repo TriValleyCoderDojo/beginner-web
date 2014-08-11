@@ -62,7 +62,76 @@ So let's do our first line of JavaScript.  In the JS editor window, enter:
 
 So I am sure that you noticed that as you were trying to type in the JavaScript code the pop-up window came up more than once, pretty annoying huh!  Well, this is happening because CodePen is executing your JavaScript immediately.  One suggestion might be to write the code in a seperate editor and then copy and paste the code into the JS editor window.  Go ahead and give that a try with your favorite editor, such as Notepad or Notepad++.  
 
+Okay, so that was pretty boring. After going through the previous sessions, that was very much underwhelming.  I think we need a little bit more excitement.  We are CoderDojo Ninjas after all!  Let's do something more advanced.  We will start with with some baseline code:
 
+```html
+<div class="box">
+  <div class="box-inner">  
+  <h2>My First JavaScript Program</h2>
+  <p>I love doing cool stuff</p>
+  <a class="button" href="http://codepen.io//" title="Fake Button">Fake Button</a>
+  </div>
+</div>
+```
+
+```css
+body{
+	font-family: 'Arial', sans-serif;
+	padding: 2rem 4rem;
+	background-color: #ffffff;
+  color:#555555;
+}
+
+.box {
+  display: block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  box-sizing:border-box;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background:#EAEAEA;
+  text-align: center;
+  text-decoration: none;
+  margin-right:5px;
+ }
+
+.box-inner {
+  margin: 15px; 
+  display:block; 
+}
+
+.box h2 {
+  border-bottom: 1px solid #ccc; 
+  padding: 0.4em 0; 
+  color:#333!important;         
+  font-size:2.3rem!important;
+  line-height: 2.5rem;
+}
+
+a.button, button {
+    background: #01827D;
+    color: #FFFFFF !important;
+    display: inline-block;
+    font-family: 'Arial',sans-serif;
+    font-size: inherit;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    text-decoration:none;
+}
+```
+
+
+
+
+<button class="button" onClick="getMyName()">What is your name?</button>  
+
+var getMyName = function() {
+  var name = prompt("What is your name?");
+  return name;
+}
 
 ## Catching a Mouse Event
 
