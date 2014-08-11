@@ -25,6 +25,8 @@ Variables in JavaScript do not have a specific type associated with them (eg: in
 * An object ``var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};``
 * A function ``var myFunction = function() { /* some code here */ }``
 
+Where a variable is defined makes a difference.  If a variable is defined inside of a function, then that variable will only be known inside of that function.  This is called the scope of the variable.  In JavaScript there are two scopes, local and global.  Local variables are defined within some context, such as a function.  Global variables are defined at the highest level, and are available to everything.  
+
 ### JavaScript Functions
 A function is a set of instructions to do the some kind of work for you.  They might do some kind of calculation, or return some value.  They allow you to do the same set of operations again and again, without needing to repeat the code in different places.  You create your function once, and you can use it as many times as you need to.  You can use parameters to change the inputs which makes them very flexible and powerful.  
 
@@ -45,7 +47,21 @@ function square(y) {
 }
 ```
 
+## Using JavaScript in CodePen
+If you recall CodePen has three editor windows: HTML, CSS & JS.  Previously, you were asked to ignore the other editors, until it was time to consider them, and now it is time to consider the JS or JavaScript editor.  Similar to the HTML and CSS editor, you can just enter your JavaScript into the editor.  
 
+ ![JS Editor](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/JS_01.PNG)
+
+However, there is something that you will need to consider when entering your JavaScript in CodePen.  It will be executed immediately.  This can be a bit frustrating sometimes, because your code can be executed while you are trying to type it in, which might be distracting.  We will see an example of this with an alert box next.  
+
+
+## Using Alert
+Let's try writing our very first line of JavaScript. In the JavaScript window of jsfiddle, type in ``alert("CoderDojo is awesome!")``. Click "run" or "update" and see what happens. You should see an alert message that says "CoderDojo is awesome!"
+
+## Catching a Mouse Event
+
+
+## Catching a Keyboard Event
 
 
 ## Using the Inspector and console.log();
@@ -56,8 +72,7 @@ Unlike HTML and CSS where you can see what changes you make in your Codepen.IO w
 * Safari: Go to Preferences -> Advanced -> select "Show Develop Menu in Menu Bar." After that Develop option should show up on the menu. Then go to Develop -> Show Web Inspector
 * IE: Tools -> Developer Tools (click on Scripts tab or Console tab, depending on the IE version)
 
-## Using Alert
-Let's try writing our very first line of JavaScript. In the JavaScript window of jsfiddle, type in ``alert("CoderDojo is awesome!")``. Click "run" or "update" and see what happens. You should see an alert message that says "CoderDojo is awesome!"
+
 
 
 
