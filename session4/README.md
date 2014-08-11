@@ -32,7 +32,7 @@ A function is a set of instructions to do the some kind of work for you.  They m
 
 There is a specific format that you need to follow for a JavaScript function:
 
-```
+```javascript
 function functionName(parameters) {
   code to be executed
 }
@@ -41,7 +41,7 @@ function functionName(parameters) {
 The code inside the curly brackets, or the body, of the function can be any valid JavaScript statement.  Each statement will need to be terminated with a semicolon (;).  For a list of the available statements refer [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements).  Below is an example of a JavaScript function that accepts a number as a parameter, squares the number and then returns the result.
 
 
-```
+```javascript
 function square(y) {
     return y * y;
 }
@@ -55,8 +55,14 @@ If you recall CodePen has three editor windows: HTML, CSS & JS.  Previously, you
 However, there is something that you will need to consider when entering your JavaScript in CodePen.  It will be executed immediately.  This can be a bit frustrating sometimes, because your code can be executed while you are trying to type it in, which might be distracting.  We will see an example of this with an alert box next.  
 
 
-## Using Alert
-Let's try writing our very first line of JavaScript. In the JavaScript window of jsfiddle, type in ``alert("CoderDojo is awesome!")``. Click "run" or "update" and see what happens. You should see an alert message that says "CoderDojo is awesome!"
+## Using Alert Box
+So let's do our first line of JavaScript.  In the JS editor window, enter:
+
+``alert("CoderDojo is awesome!")`` 
+
+So I am sure that you noticed that as you were trying to type in the JavaScript code the pop-up window came up more than once, pretty annoying huh!  Well, this is happening because CodePen is executing your JavaScript immediately.  One suggestion might be to write the code in a seperate editor and then copy and paste the code into the JS editor window.  Go ahead and give that a try with your favorite editor, such as Notepad or Notepad++.  
+
+
 
 ## Catching a Mouse Event
 
