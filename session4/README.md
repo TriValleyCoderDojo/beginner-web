@@ -111,7 +111,7 @@ body{
   line-height: 2.5rem;
 }
 
-a.button, button {
+a.button, button, span {
     background: #01827D;
     color: #FFFFFF !important;
     display: inline-block;
@@ -126,20 +126,43 @@ a.button, button {
 ```
 
 This will give you a page that looks as shown below:
+
 ![Baseline Code](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/JS_02.PNG)
 
+Okay, now that is more like it.  Something worthy of CoderDojo Ninjas like us!  Now we are ready to do some serious coding!  
 
-<button class="button" onClick="getMyName()">What is your name?</button>  
+Let's start with a simple alert box.  Let's make an embedded alert box that is triggered by clicking the mouse.  In the HTML add the following code to the end:
 
-var getMyName = function() {
-  var name = prompt("What is your name?");
-  return name;
+```html
+<span class="button" onclick="alert('Hello World!');">Click Here</span>
+```
+
+Go ahead and click on the "Click Here" and you should get the pop-up alert box.  Pretty cool, huh!  But we are just getting started.  Let's try another alert box.  This will have both HTML and JavaScript.  Here we will create an actual button and a JavaScript function that gets used when you click.  
+
+Add this HTML
+```html
+<button class="button" onClick="noClickHere()">DO NOT CLICK</button>  
+
+Add this JavaScript
+```javascript
+var noClickHere = function() {
+  alert("I told you not to click there");
 }
+```
 
 ## Catching a Mouse Event
 
 
 ## Catching a Keyboard Event
+
+
+## Updating Existing HTML
+
+
+## Hide and Unhide HTML
+
+
+## Validate Inputs
 
 
 ## Using the Inspector and console.log();
