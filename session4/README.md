@@ -62,8 +62,9 @@ So let's do our first line of JavaScript.  In the JS editor window, enter:
 
 So I am sure that you noticed that as you were trying to type in the JavaScript code the pop-up window came up more than once, pretty annoying huh!  Well, this is happening because CodePen is executing your JavaScript immediately.  One suggestion might be to write the code in a seperate editor and then copy and paste the code into the JS editor window.  Go ahead and give that a try with your favorite editor, such as Notepad or Notepad++.  
 
-Okay, so that was pretty boring. After going through the previous sessions, that was very much underwhelming.  I think we need a little bit more excitement.  We are CoderDojo Ninjas after all!  Let's do something more advanced.  We will start with with some baseline code:
+Okay, so that was pretty boring. After going through the previous sessions, that was very much underwhelming.  I think we need a little bit more excitement.  We are CoderDojo Ninjas after all!  Let's do something more advanced.  We will start with with some baseline code, as shown below:
 
+HTML
 ```html
 <div class="box">
   <div class="box-inner">  
@@ -74,6 +75,7 @@ Okay, so that was pretty boring. After going through the previous sessions, that
 </div>
 ```
 
+CSS
 ```css
 body{
 	font-family: 'Arial', sans-serif;
@@ -123,7 +125,8 @@ a.button, button {
 }
 ```
 
-
+This will give you a page that looks as shown below:
+![Baseline Code](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/JS_02.PNG)
 
 
 <button class="button" onClick="getMyName()">What is your name?</button>  
