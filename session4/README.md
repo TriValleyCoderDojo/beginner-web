@@ -1,10 +1,52 @@
 Session 4 - Introduction to JavaScript
 =================
 
-### CodePen link: http://codepen.io/jensechu/pen/imHpc
-
 ## What is JavaScript?
-JavaScript is a programming language that your browser speaks. It is how you can add life to your websites by making the elements you put on the page interact with the person reading your page. We might use it to pop-up an alert box, do some math, or even change the text on your page without editing your HTML! 
+JavaScript is a scripting language that can be used in your browser. It is used to make your web pages more interactive and interesting.  It will allow you to write code that will create a pop-up alert box, catch mouse events, catch keyboard events, allow you to hide/unhide parts of the page, plus a whole lot more.  Contrary to its name, it has nothing to do with Java.  
+
+In this session we will learn only some of the basic things you can do with JavaScript.  There are a number good resources available to learn more.  All you will need to do is a search from your browser.  
+
+### JavaScript Variables
+Variables in JavaScript let you save data or functions with associated names. This will allow you to reference that data or function later.  
+
+* Variable names must begin with a letter
+* Variable names can also begin with $ and _ (but we will not use it)
+* Variable names are case sensitive (y and Y are different variables)
+* [Reserved Words](http://msdn.microsoft.com/en-us/library/0779sbks.aspx) (like JavaScript keywords) cannot be used as variable names
+
+Variables in JavaScript do not have a specific type associated with them (eg: integer, string, etc...)  The type of the variable will be determined by how it is used in the code.  The variables will be declared with the keyword ``var``
+
+* A string ``var name = "Alex";``
+* An integer ``var counter = 3;``
+* A decimal number ``var percent = 58.326;``
+* In scientific notation ``var y = 123e5;``
+* A boolean ``var done = false;``
+* An array ``var cars = ["Saab", "Volvo", "BMW"];``
+* An object ``var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};``
+* A function ``var myFunction = function() { /* some code here */ }``
+
+### JavaScript Functions
+A function is a set of instructions to do the some kind of work for you.  They might do some kind of calculation, or return some value.  They allow you to do the same set of operations again and again, without needing to repeat the code in different places.  You create your function once, and you can use it as many times as you need to.  You can use parameters to change the inputs which makes them very flexible and powerful.  
+
+There is a specific format that you need to follow for a JavaScript function:
+
+```
+function functionName(parameters) {
+  code to be executed
+}
+```
+
+The code inside the curly brackets, or the body, of the function can be any valid JavaScript statement.  Each statement will need to be terminated with a semicolon (;).  For a list of the available statements refer [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements).  Below is an example of a JavaScript function that accepts a number as a parameter, squares the number and then returns the result.
+
+
+```
+function square(y) {
+    return y * y;
+}
+```
+
+
+
 
 ## Using the Inspector and console.log();
 Unlike HTML and CSS where you can see what changes you make in your Codepen.IO websites, Javascript requires you to use the web inspector's console to see what is going on. The console is a way to see exactly what your JavaScript code is doing, since sometimes you can't tell if your code works or not just by looking at it like in HTML or CSS. You can access the console in various browsers:
@@ -17,19 +59,7 @@ Unlike HTML and CSS where you can see what changes you make in your Codepen.IO w
 ## Using Alert
 Let's try writing our very first line of JavaScript. In the JavaScript window of jsfiddle, type in ``alert("CoderDojo is awesome!")``. Click "run" or "update" and see what happens. You should see an alert message that says "CoderDojo is awesome!"
 
-## Using Variables
-Variables in JavaScript let you save data with associated names. Let's try writing a couple of variables and use them in our JavaScript. In the JavaScript section of jsfiddle:
 
-* Add a variable with a number ``var number1 = 3``
-* Add a second variable with a number ``var number2 = 5``
-* Try typing ``alert(number1 + number2)`` and click "Run". 
-* Now let's try adding string variables. Strings should start and end with quote marks. You can use either single quote (') or double quote (") but you need to use the same one for both beginning and ending.
-* Add a variable called first name ``var firstName = “Coder”``
-* Add a second variable called last name ``var lastName = "Dojo”``
-* Now try typing ``alert(firstName + lastName)`` and click "Run". 
-* Hmm the format doesn't look right. Let's try adding a space between them: ``alert(firstName + " " + lastName)``. Much better!
-
-You can name your variable almost anything, but it can't start with a number. Variable names also can't be any of JavaScript's [Reserved Words](http://msdn.microsoft.com/en-us/library/0779sbks.aspx)
 
 ## Talking to JavaScript
 Let's give your website some personality.
@@ -39,45 +69,8 @@ First, we should teach your website your name! In your JavaScript section type i
 
 You should see an alert box pop up that has a place to type in your name. Go ahead and tell your webpage what your name is! In your Inspector's Console you should see your name in quotation marks.
 
-## What is a function?
-A function is a command that will run some code every time you type it in. For example, every time you type in ``prompt("What is your name?")``, a new alert box will pop up on your website. 
-
-Functions are important because usually you want to control when certain code will run on your site. Let's try adding some code that will allow us to click on a link to run our ``prompt()`` function, instead of running our ``prompt()`` function when our page loads.
-
-Functions are just a set of instructions to return the value that you want. It is similar to how baking a cake might have a recipe to follow to always bake the same cake.
-
-* First we need to add a button to our HTML. ``<button onClick="prompt('What is your name?')">Click Me!</button>``
-
-* Now try clicking your button. You can see that using ``onclick="prompt('What is your name?')"`` on the HTML element allowed you to have some control of when the ``prompt()`` is used.
 
 
-## Writing your own function.
-We will write a function to get your name so we can use the value later in our code.
-
-### Your Name
-Here we will write a function to return your name.
-* We need a button in our HTML to run our code: ``<button onClick="getMyName()">What is your name?</button>``
-* And now in our JavaScript:
-
-```
-// Log my name
-var getMyName = function() {
-  var name = prompt("What is your name?");
-  console.log("Hello " + name + "!");
-  return name;
-}
-```
-
-## Adding Variables
-Variables in JavaScript let you save data with associated names. Let's try teaching our script what our name is, since right now if we just run ``prompt("What is your name?")`` our script has no way to recall our name again. 
-
-* In your JavaScript Inspector try: ``console.log(name);``
-* Then add ``var name = prompt('What is your name?')``
-* Now try ``console.log(name)`` in your Inspector again. 
-* Why do you think these are different?
-* Be sure to delete these three lines of code when you are finished typing them so we can write our own function to get your name.
-
-You can name your variable almost anything, but it can't start with a number. Variable names also can't be any of JavaScript's [Reserved Words](http://msdn.microsoft.com/en-us/library/0779sbks.aspx)
 
 ## Adding Data to Your Page
 All of our JavaScript data is just stored in our JavaScript code right now. But what if we wanted to display our data on the website? Let's create a welcome message for our users.
