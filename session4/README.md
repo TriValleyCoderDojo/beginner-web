@@ -142,6 +142,7 @@ Go ahead and click on the "Click Here" and you should get the pop-up alert box. 
 Add this HTML
 ```html
 <button class="button" onClick="noClickHere()">DO NOT CLICK</button>  
+```
 
 Add this JavaScript
 ```javascript
