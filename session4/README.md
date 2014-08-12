@@ -230,16 +230,18 @@ function clickHandler(event) {
 With the above, we are only retrieving the type and target properties, but you can do the same thing for any of the properties you may be interested in using for whatever reason.  You will find that once you start using the event properties in a web application all kinds of possible uses will come up.  
 
 
-
 ## Catching a Keyboard Event
-
 The Keyboard events are similar to Mouse events, only these will happen when a user does something with the keyboard.  Here is a list of the most commonly used keyboard events:
 
   * onkeydown - generated when a user is pressing a key
   * onkeyup - generated when a user releases a key
   * onkeypress - generated when a user presses a key
 
-With a onkeypress event, the Unicode value of the key pressed is stored in either the keyCode or charCode property, never both. If the key pressed generates a character (e.g., 'a'), charCode is set to the code of that character, respecting the letter case (i.e., charCode takes into account whether the shift key is held down).  Otherwise, the code of the pressed key is stored in keyCode.  This means taht charCode and keyCode values for a particular key are not the same. Also, the charCode is only returned if the event that triggered your event handler was keypress.  This is further confused by there being some differences between browsers as well, so you will need to be careful.  
+The two properties made available through the key events are keyCode and charCode. In simple terms, keyCode refers to the actual keyboard key that was pressed by the user, while charCode is intended to return that key's ASCII value. These two values may not necessarily be the same; for instance, a lower case 'a' and an upper case 'A' have the same keyCode, because the user presses the same key, but a different charCode because the resulting character is different.
+
+With a onkeypress event, the Unicode value of the key pressed is stored in either the keyCode or charCode property, never both. If the key pressed generates a character (e.g., 'a'), charCode is set to the code of that character, respecting the letter case (i.e., charCode takes into account whether the shift key is held down).  Otherwise, the code of the pressed key is stored in keyCode.  This means that charCode and keyCode values for a particular key are not the same. Also, the charCode is only returned if the event that triggered your event handler was keypress.  
+
+Things are further confused by there being some differences between browsers.  The charCode is not a consistently-applied process. For example, Internet Explorer and Opera do not support charCode. However, they give the character information in keyCode, but only onkeypress. Onkeydown and onkeyup keyCode contain key information. Firefox uses a different word, "which", to distinguish the character.
 
 So what is this Unicode stuff anyway?  Well, this is one of the ways that printable characters are represented.  What happens is that a character is converted into a number representation, so the computer can use it.  For example an 'A' will be converted to U+0042 (in hexadecimal) or 66 (in decimal).  There is a lot of information available on Unicode character encoding on the internet.  
 
