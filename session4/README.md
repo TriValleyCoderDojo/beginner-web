@@ -215,10 +215,12 @@ Mouse/Keyboard Event Properties:
 
 Okay, so its great that there is all this additional information available to us, but how do we get it?  Well, if you recall JavaScript functions can have parameters, and the event handlers will accept the event as a parameter.  So all we need to do is rewrite our function in a different way and we will expose all of these cool properties, as shown below:
 
+HTML
 ```html
 <span onclick="clickHandler(event);">Click Here</span>
 ```
 
+JavaScript
 ```javascript
 function clickHandler(event) {
   var eType = event.type;
