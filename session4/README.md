@@ -161,6 +161,72 @@ var noClickHere = function() {
 ## Catching a Mouse Event
 
 
+In the previous section, we got our feet wet with theJavaScript onclick() event handler to display an alert box.  We used it without talking about it.  Here we are going into a bit more detail on the mouse events, and how we can use them in JavaScript.  
+
+Your browser will generate events when things happen.  This is something the browser does by itself and we have no control over it.  All we are going to be doing is to take advantage of what the browser is already doing.  Browsers will generate a lot of different events.  Here we are only going to be talking about the Mouse events, but the nice thing is that once you understand Mouse events, then all of the other events will just be more of the same.  
+
+Here is a good list of the most commonly used mouse events:
+
+  * onclick - generated when a user clicks the mouse
+  * ondblclick - generated when a user double-clicks the mouse
+  * onmousedown - generated when a user depresses a mouse button (the first half of a click) 
+  * onmouseup - generated when a user releases a mouse button (the second half of a click) 
+  * onmouseout - generated when the mouse pointer off an element on the page
+  * onmouseover - generated when the mouse pointer is over an element on the page
+  * onousemove - generated when the mouse pointer moves while over an element on the page
+
+We already used the simplest example of an event handler, when we used the onclick with the alert box.  This used the onclick event in the list above.  When we added the onclick=”some action” as an attribute to the element, we were enabling the onclick event handler for that element, and telling it to do some action (the thing that is in the quotes).  Initially, we used an embedded alert box, and then later we assigned a function as the action.  
+
+However, the events are actually more interesting than just doing something.  The events are actually objects themselves, with their own set of properties.  We can use the event object to get additional information about the event.  There are two kinds of properties that you will find in the Mouse events:
+
+1. Base Event Properties – these are properties that can be available in all events
+2. Mouse/Keyboard Properties – these are specific to mouse or keyboard events
+
+
+Base Event Properties
+| Property | Description |
+| bubbles | Returns whether or not an event is a bubbling event |
+| cancelable | Returns whether or not an event can have its default action prevented |
+| currentTarget | Returns the element whose event listeners triggered the event |
+| eventPhase | Returns which phase of the event flow is currently being evaluated |
+| target | Returns the element that triggered the event |
+| timeStamp | Returns the time (in milliseconds relative to the epoch) at which the event was created |
+| type | Returns the name of the event |
+
+
+Mouse/Keyboard Event Properties
+| Property | Description |
+| altKey | Returns whether or not the "ALT" key was pressed when an event was triggered |
+| button | Returns which mouse button was clicked when an event was triggered |
+| clientX | Returns the horizontal coordinate of the mouse pointer, relative to the current window, when an event was triggered |
+| clientY | Returns the vertical coordinate of the mouse pointer, relative to the current window, when an event was triggered |
+| ctrlKey | Returns whether or not the "CTRL" key was pressed when an event was triggered |
+| keyIdentifier | Returns the identifier of a key |
+| keyLocation | Returns the location of the key on the device |
+| metaKey | Returns whether or not the "meta" key was pressed when an event was triggered |
+| relatedTarget | Returns the element related to the element that triggered the event |
+| screenX | Returns the horizontal coordinate of the mouse pointer, relative to the screen, when an event was triggered |
+| screenY | Returns the vertical coordinate of the mouse pointer, relative to the screen, when an event was triggered |
+| shiftKey | Returns whether or not the "SHIFT" key was pressed when an event was triggered |
+
+Okay, so its great that there is all this additional information available to us, but how do we get it?  Well, if you recall JavaScript functions can have parameters, and the event handlers will accept the event as a parameter.  So all we need to do is rewrite our function in a different way and we will expose all of these cool properties, as shown below:
+
+```html
+<span onclick="clickHandler(event);">Click Here</span>
+```
+
+```javascript
+function clickHandler(event) {
+  var eType = event.type;
+  var eTarget = event.target;
+  alert("Captured Event (type=" + eType + ", target=" + eTarget + ")" );
+}
+```
+
+With the above, we are only retrieving the type and target properties, but you can do the same thing for any of the properties you may be interested in using for whatever reason.  You will find that once you start using the event properties in a web application all kinds of possible uses will come up.  
+
+
+
 ## Catching a Keyboard Event
 
 
