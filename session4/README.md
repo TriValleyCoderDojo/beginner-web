@@ -186,7 +186,7 @@ However, the events are actually more interesting than just doing something.  Th
 Base Event Properties:
 
 | Property | Description |
-|:---------|:-----------:|
+|:---------|:------------|
 | bubbles | Returns whether or not an event is a bubbling event |
 | cancelable | Returns whether or not an event can have its default action prevented |
 | currentTarget | Returns the element whose event listeners triggered the event |
@@ -196,8 +196,10 @@ Base Event Properties:
 | type | Returns the name of the event |
 
 
-Mouse/Keyboard Event Properties
+Mouse/Keyboard Event Properties:
+
 | Property | Description |
+|:---------|:------------|
 | altKey | Returns whether or not the "ALT" key was pressed when an event was triggered |
 | button | Returns which mouse button was clicked when an event was triggered |
 | clientX | Returns the horizontal coordinate of the mouse pointer, relative to the current window, when an event was triggered |
