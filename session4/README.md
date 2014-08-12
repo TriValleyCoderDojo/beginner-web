@@ -159,8 +159,6 @@ var noClickHere = function() {
 ```
 
 ## Catching a Mouse Event
-
-
 In the previous section, we got our feet wet with theJavaScript onclick() event handler to display an alert box.  We used it without talking about it.  Here we are going into a bit more detail on the mouse events, and how we can use them in JavaScript.  
 
 Your browser will generate events when things happen.  This is something the browser does by itself and we have no control over it.  All we are going to be doing is to take advantage of what the browser is already doing.  Browsers will generate a lot of different events.  Here we are only going to be talking about the Mouse events, but the nice thing is that once you understand Mouse events, then all of the other events will just be more of the same.  
@@ -234,6 +232,36 @@ With the above, we are only retrieving the type and target properties, but you c
 
 
 ## Catching a Keyboard Event
+
+The Keyboard events are similar to Mouse events, only these will happen when a user does something with the keyboard.  Here is a list of the most commonly used keyboard events:
+
+  * onkeydown - generated when a user is pressing a key
+  * onkeyup - generated when a user releases a key
+  * onkeypress - generated when a user presses a key
+
+With a onkeypress event, the Unicode value of the key pressed is stored in either the keyCode or charCode property, never both. If the key pressed generates a character (e.g., 'a'), charCode is set to the code of that character, respecting the letter case (i.e., charCode takes into account whether the shift key is held down).  Otherwise, the code of the pressed key is stored in keyCode.  This means taht charCode and keyCode values for a particular key are not the same. Also, the charCode is only returned if the event that triggered your event handler was keypress.  This is further confused by there being some differences between browsers as well, so you will need to be careful.  
+
+So what is this Unicode stuff anyway?  Well, this is one of the ways that printable characters are represented.  What happens is that a character is converted into a number representation, so the computer can use it.  For example an 'A' will be converted to U+0042 (in hexadecimal) or 66 (in decimal).  There is a lot of information available on Unicode character encoding on the internet.  
+
+Capturing the event and referencing the target (i.e., the actual key that was pressed) is achieved in a similar way to mouse events:
+
+HTML
+```html
+<p>Enter something:<input onkeypress="keypressHandler(event);" /></p>
+```
+
+JavaScript
+```javascript
+function keypressHandler(e) {
+  var evt = e ? e:event;
+  var chrTyped, chrCode = 0;
+  var sProperties = ''
+   +(evt.keyCode ==null ? '':' keyCode=' +evt.keyCode )
+   +(evt.charCode==null ? '':' charCode='+evt.charCode)
+   +(evt.which   ==null ? '':' which='+evt.which)
+  alert(sProperties);
+}
+```
 
 
 ## Updating Existing HTML
