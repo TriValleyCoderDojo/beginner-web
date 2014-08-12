@@ -183,8 +183,10 @@ However, the events are actually more interesting than just doing something.  Th
 2. Mouse/Keyboard Properties – these are specific to mouse or keyboard events
 
 
-Base Event Properties
+Base Event Properties:
+
 | Property | Description |
+|:---------|:-----------:|
 | bubbles | Returns whether or not an event is a bubbling event |
 | cancelable | Returns whether or not an event can have its default action prevented |
 | currentTarget | Returns the element whose event listeners triggered the event |
