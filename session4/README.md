@@ -299,8 +299,10 @@ Here are the most frequently used methods to delete or completely replace HTML e
 
 Updating properties in an HTML element are done by first getting the element with one of the getter methods and then updating the specific property with an assignment operator.  For example: 
 
+```javascript
 var ele = document.getElementById('myElement');
 ele.someProperty = newValue;
+```
 
 The methods specified above are only a subset of what is provided by JavaScript.  The full set can be found in the [JavaScript API](https://developer.mozilla.org/en-US/docs/Web/API).  
 
