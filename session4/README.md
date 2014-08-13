@@ -236,7 +236,7 @@ With the above, we are only retrieving the type and target properties, but you c
 ## Catching a Keyboard Event
 The Keyboard events are similar to Mouse events, only these will happen when a user does something with the keyboard.  Here is a list of the most commonly used keyboard events:
 
-  * onkeydown - generated when a user is pressing a key
+  * onkeydown - generated when a user is pressing down on a key. This is event ends when the key is released.
   * onkeyup - generated when a user releases a key
   * onkeypress - generated when a user presses a key
 
