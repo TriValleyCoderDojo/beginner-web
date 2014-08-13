@@ -278,21 +278,21 @@ This tree-like structure is called the DOM, and what this does for us is to allo
 
 Here are the most frequently used methods to find HTML elements: 
 
-document.getElementById(id) – returns the with the specified id
-document.getElementsByName(name) – returns a list of elements with given name
-document.getElementsByTagName(tagName) – returns a list of all elements of type tagName
-document.getElementsByClassName(className) – returns a list of all elements with the class of className
+  * document.getElementById(id) – returns the with the specified id
+  * document.getElementsByName(name) – returns a list of elements with given name
+  * document.getElementsByTagName(tagName) – returns a list of all elements of type tagName
+  * document.getElementsByClassName(className) – returns a list of all elements with the class of className
 
 Here are the most frequently used methods to create new HTML elements: 
 
-document.createElement(tagName) – returns a new element of type tagName
-node.cloneNode(deep) – returns a copy of an existing node, can use a deep copy or not
-element.append(child) – appends a new child to a specific element
+  * document.createElement(tagName) – returns a new element of type tagName
+  * node.cloneNode(deep) – returns a copy of an existing node, can use a deep copy or not
+  * element.append(child) – appends a new child to a specific element
 
 Here are the most frequently used methods to delete or completely replace HTML elements: 
 
-element.removeChild(child) – completely remove the specified child from the element
-element.replaceChild(newChild, oldChild)
+  * element.removeChild(child) – completely remove the specified child from the element
+  * element.replaceChild(newChild, oldChild)
 
 Updating properties in an HTML element are done by first getting the element with one of the getter methods and then updating the specific property with an assignment operator.  For example: 
 
