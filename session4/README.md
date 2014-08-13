@@ -268,6 +268,81 @@ function keypressHandler(e) {
 
 ## Updating Existing HTML
 
+One of the really cool things about JavaScript is that it will let you update existing HTML elements.  Think about that for a second.  You have a web page with some content, and then you click a button or take some other action, and the page gets changed by some JavaScript code that you wrote.  Now that is pretty cool!
+
+Before we get into some examples and start playing with some code, we need to understand a couple of important things.  The first is the idea of the Document Object Model (DOM).  When a browser stores HTML, it will store it in a tree-like structure.  The html element will be top of the tree and everything will be a child element below html.  Elements can have other child elements, and this just goes on and on, which then makes the tree.  The entire DOM will be stored in a special JavaScript object, named document.  
+
+Need a diagram here showing the DOM
+
+This tree-like structure is called the DOM, and what this does for us is to allow us to look for, find and update any HTML element in the DOM.  Now JavaScript provides the methods that allow us to look for, find and update the HTML elements.  
+
+Here are the most frequently used methods to find HTML elements: 
+
+document.getElementById(id) – returns the with the specified id
+document.getElementsByName(name) – returns a list of elements with given name
+document.getElementsByTagName(tagName) – returns a list of all elements of type tagName
+document.getElementsByClassName(className) – returns a list of all elements with the class of className
+
+Here are the most frequently used methods to create new HTML elements: 
+
+document.createElement(tagName) – returns a new element of type tagName
+node.cloneNode(deep) – returns a copy of an existing node, can use a deep copy or not
+element.append(child) – appends a new child to a specific element
+
+Here are the most frequently used methods to delete or completely replace HTML elements: 
+
+element.removeChild(child) – completely remove the specified child from the element
+element.replaceChild(newChild, oldChild)
+
+Updating properties in an HTML element are done by first getting the element with one of the getter methods and then updating the specific property with an assignment operator.  For example: 
+
+var ele = document.getElementById('myElement');
+ele.someProperty = newValue;
+
+The methods specified above are only a subset of what is provided by JavaScript.  The full set can be found in the [JavaScript API](https://developer.mozilla.org/en-US/docs/Web/API).  
+
+Okay, so now that we have an idea of how this works, let's start with a simple example.  We will make the JavaScript prompt for name is and then we will find a specific HTML element and finally update it with the name received.  In the HTML, we will use our familiar onclick() and call a JavaScript function.  Also, notice we have a div element with an id.  We will use the id to find that element in the DOM and then update the text in it.  
+
+HTML
+```html
+<button class="button" onclick="updateElement()">What is your name?</button>
+<div id="hello-prompt">Hello!</div>
+```
+
+JavaScript
+```javascript
+var updateElement = function() {
+  var name = prompt("What is your name?");
+  var helloEle = document.getElementById('hello-prompt');
+  var helloMsg = "Hello " + name + ", glad to see you!";
+  helloEle.innerHTML = helloMsg;
+}
+```
+
+Well, that was pretty cool, but I think we can do better.  Let's do something just a bit more interesting.  Let's say we have a table and we want to allow our users to be able to add new rows to the table.  This makes sense right.  After all otherwise we would need to update the HTML every time someone wants to add a new row.  So why not let the users do that for us?  
+
+HTML
+```html
+<table id="myTable" style="border: 1px solid black">
+  <tr>
+    <td>cell1</td>
+    <td>cell2</td>
+  </tr>
+</table>
+<p><input type="button" onclick="insRow('myTable')" value="Insert row"></p>
+```
+
+JavaScript
+```javascript
+function insRow(id) {
+    var x = document.getElementById(id).insertRow(0);
+    var y = x.insertCell(0);
+    var z = x.insertCell(1);
+    y.innerHTML = z.innerHTML = "New";
+}
+```
+
+Now that is pretty cool!  Imagine all the stuff you could do with that!  You can do this for any kind of HTML element on the page, images, forms, etc...  You name it and you do whatever you need to with it.  
 
 ## Hide and Unhide HTML
 
