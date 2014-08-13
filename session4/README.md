@@ -275,7 +275,7 @@ One of the really cool things about JavaScript is that it will let you update ex
 
 Before we get into some examples and start playing with some code, we need to understand a couple of important things.  The first is the idea of the Document Object Model (DOM).  When a browser stores HTML, it will store it in a tree-like structure.  The html element will be top of the tree and everything will be a child element below html.  Elements can have other child elements, and this just goes on and on, which then makes the tree.  The entire DOM will be stored in a special JavaScript object, named document.  
 
-Need a diagram here showing the DOM
+![HTML DOM](https://raw.githubusercontent.com/TriValleyCoderDojo/beginner-web/master/screenshots/htmltree.gif)
 
 This tree-like structure is called the DOM, and what this does for us is to allow us to look for, find and update any HTML element in the DOM.  Now JavaScript provides the methods that allow us to look for, find and update the HTML elements.  
 
