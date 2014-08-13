@@ -346,63 +346,41 @@ Now that is pretty cool!  Imagine all the stuff you could do with that!  You can
 
 ## Hide and Unhide HTML
 
+Another common and useful thing you can use JavaScript for is to hide and unhide part of your page.  There are a lot of reasons for doing this.  You may have a lot of questions to ask, but you only want to ask one question at a time.  Or maybe you want to show different content depending on what the user clicks.  There really are quite a few possibilities.
 
-## Validate Inputs
+We can do this by using one of two properties that are associated with each element in the DOM.  We can use “style.display” or “style.visibility”.  You may notice these both are prefixed with style.  This is because these properties are sub-properties inside of the style property, which is where HTML stores the CSS configuration for the specific elements.  
 
+The choice of whether to use display or visibility depends upon what you want to happen, because they have slightly different behaviors.  Using visibility to hide an element will simply make the element not appear, but it will still take up the same amount of space on the page.  On the other hand, display cause an element to not appear, and it will not take up any space on the page, meaning it will effect the layout of the page.  
 
-## Using the Inspector and console.log();
-Unlike HTML and CSS where you can see what changes you make in your Codepen.IO websites, Javascript requires you to use the web inspector's console to see what is going on. The console is a way to see exactly what your JavaScript code is doing, since sometimes you can't tell if your code works or not just by looking at it like in HTML or CSS. You can access the console in various browsers:
+The visibility property can be set to “hidden” to hide an element, and can be set to “visible” to make it visible again.  There is more information about visibility [here](http://www.w3schools.com/jsref/prop_style_visibility.asp).  The display property can be set to “none” to hide an element, and be set to “block” to make it visible again.  This is more information about display [here](http://www.w3schools.com/jsref/prop_style_display.asp).  
 
-* Chrome: Go to View -> Developer -> JavaScript Console
-* Firefox: Go to Tools -> Web Developer -> Web Console
-* Safari: Go to Preferences -> Advanced -> select "Show Develop Menu in Menu Bar." After that Develop option should show up on the menu. Then go to Develop -> Show Web Inspector
-* IE: Tools -> Developer Tools (click on Scripts tab or Console tab, depending on the IE version)
+HTML
+```html
+<p>This is just taking up space at the top</p>
+<p id="my_p1">This is the text that will use display.</p>
+<p id="my_p2">This is the text that will use visibility.</p>
+<p>This is just taking up space at the bottom</p>
 
-
-
-
-
-## Talking to JavaScript
-Let's give your website some personality.
-First, we should teach your website your name! In your JavaScript section type in and see what this does:
-
-* ``prompt("What is your name, visitor?")``
-
-You should see an alert box pop up that has a place to type in your name. Go ahead and tell your webpage what your name is! In your Inspector's Console you should see your name in quotation marks.
-
-
-
-
-## Adding Data to Your Page
-All of our JavaScript data is just stored in our JavaScript code right now. But what if we wanted to display our data on the website? Let's create a welcome message for our users.
-
-* First lets add an HTML element for our welcome message. ``<div id="welcome-container"></div>``
-* We also need a button to run our function: ``<button onclick="setWelcomeMessage()>Set Welcome Message!</button>"``
-* Add some CSS
-
+<p><input type="button" onclick="toggle_my_p1('my_p1')" value="Toggle p1 with display"></p>
+<p><input type="button" onclick="toggle_my_p2('my_p2')" value="Toggle p2 with visibility"></p>
 ```
-#welcome-container {
-  font-size: 25px;
-  padding: 20px;
-  background: #33ffcc;
-  margin: 20px;
-  border: 10px dotted white;  
-  display: none;
+
+JavaScript
+```javascript
+function toggle_my_p1(id) {
+  var e = document.getElementById(id);
+  if(e.style.display == 'block')
+    e.style.display = 'none';
+  else
+    e.style.display = 'block';
+}
+
+function toggle_my_p2(id) {
+  var e = document.getElementById(id);
+  if(e.style.visibility == 'visible')
+    e.style.visibility = 'hidden';
+  else
+    e.style.visibility = 'visible';
 }
 ```
-* Paste this code into your JavaScript section:
-
-```
-// Set a welcome message with my data
-var setWelcomeMessage = function() {
-  var name = getMyName();
-  var welcomeMessage = "Welcome " + name + "!";
-  var welcomeContainer = document.getElementById('welcome-container');
-  welcomeContainer.innerHTML = welcomeMessage;
-  welcomeContainer.style.display= 'block';
-}
-```
-Notice how we are using the function we already wrote in our JavaScript to get our ``name`` value.
-
-Keep in mind that browsers are forgetful! They cannot remember everything you do unless we tell our code to make the browser remember. When we refresh our page, the name you stored will be gone.
 
