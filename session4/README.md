@@ -174,7 +174,7 @@ Here is a good list of the most commonly used mouse events:
   * onmouseup - generated when a user releases a mouse button (the second half of a click) 
   * onmouseout - generated when the mouse pointer off an element on the page
   * onmouseover - generated when the mouse pointer is over an element on the page
-  * onousemove - generated when the mouse pointer moves while over an element on the page
+  * onmousemove - generated when the mouse pointer moves while over an element on the page
 
 We already used the simplest example of an event handler, when we used the onclick with the alert box.  This used the onclick event in the list above.  When we added the onclick=”some action” as an attribute to the element, we were enabling the onclick event handler for that element, and telling it to do some action (the thing that is in the quotes).  Initially, we used an embedded alert box, and then later we assigned a function as the action.  
 
