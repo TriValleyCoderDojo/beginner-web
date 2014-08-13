@@ -72,7 +72,7 @@ So let's do our first line of JavaScript.  In the JS editor window, enter:
 
 So I am sure that you noticed that as you were trying to type in the JavaScript code the pop-up window came up more than once, pretty annoying huh!  Well, this is happening because CodePen is executing your JavaScript immediately.  One suggestion might be to write the code in a seperate editor and then copy and paste the code into the JS editor window.  Go ahead and give that a try with your favorite editor, such as Notepad or Notepad++.  
 
-Okay, so that was pretty boring. After going through the previous sessions, that was very much underwhelming.  I think we need a little bit more excitement.  We are CoderDojo Ninjas after all!  Let's do something more advanced.  We will start with with some baseline code, as shown below:
+Okay, so that was pretty boring. After going through the previous sessions, that was highly underwhelming.  I think we need a little bit more excitement.  We are CoderDojo Ninjas after all!  Let's do something more advanced.  We will start with with some baseline code, as shown below:
 
 HTML
 ```html
