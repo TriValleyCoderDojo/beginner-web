@@ -4,7 +4,7 @@ Session 4 - Introduction to JavaScript
 ## What is JavaScript?
 JavaScript is a scripting language that can be used in your browser. It is used to make your web pages more interactive and interesting.  It will allow you to write code that will create a pop-up alert box, catch mouse events, catch keyboard events, allow you to hide/unhide parts of the page, plus a whole lot more.  Contrary to its name, it has nothing to do with Java.  
 
-In this session we will learn only some of the basic things you can do with JavaScript.  There are a number good resources available to learn more.  All you will need to do is a search from your browser.  
+In this session we will learn only some of the basic things you can do with JavaScript.  There are a number of good resources available to learn more.  All you will need to do is a search from your browser.  
 
 ### JavaScript Variables
 Variables in JavaScript let you save data or functions with associated names. This will allow you to reference that data or function later.  
