@@ -51,7 +51,9 @@ function square(y) {
 
 JavaScript provides all the usual operators that you would expect, such as: arthimetic, assignment, comparison, logical etc...  A complete list can be found at [JavaScript Operator Reference](http://www.w3schools.com/jsref/jsref_operators.asp)
 
-It is often a good idea to comment out some code while debugging and testing.  JavaScript provides two kinds of comments: 1) ``//`` for single line comments, and 2) ``/* any number of lines */`` for multiple line comments. 
+It is often a good idea to comment out some code while debugging and testing.  JavaScript provides two kinds of comments: 
+1. ``//`` for single line comments, and 
+2. ``/* any number of lines */`` for multiple line comments. 
 
 
 ## Using JavaScript in CodePen
