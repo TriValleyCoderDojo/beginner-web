@@ -389,9 +389,9 @@ function toggle_my_p2(id) {
 }
 ```
 
-## Summary
+## Conclusion
 
-Congratualtions!  You have made it to the end of this introduction to JavaScript.  We covered some interesting things that you can do with JavaScript, and I hope that you will continue to do more, because there is so much more that can done.  For example, here is a really cool example of something really cool that can be done with JavaScript.  Check it out!
+Congratualtions!  You have made it to the end of this introduction to JavaScript.  We covered some interesting things that you can do with JavaScript, and I hope that you will continue to do more, because there is so much more that can done.  Here is an example of something really cool that can be done with JavaScript.  Check it out!
 
 [sketch.js Demo](http://codepen.io/soulwire/pen/foktm)
 
